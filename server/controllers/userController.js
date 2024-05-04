@@ -46,7 +46,6 @@ exports.user_create_post = [
   body('email', 'Invalid email')
     .trim()
     .isLength({ min: 1 })
-    .stripTags()
     .isEmail(),
   body('password', 'Invalid password').trim().notEmpty(),
 
@@ -61,7 +60,7 @@ exports.user_create_post = [
       email: req.body.email,
       password: req.body.password,
     })
-
+    const emailUsed = await User.findOne({email: user.email})
     if (!errors.isEmpty()) {
       // There are errors. Render form again with sanitized values/errors messages.
       res.json({
@@ -72,11 +71,14 @@ exports.user_create_post = [
       return
     } else {
       // Data from form is valid.
-
-      // Save user.
-      await user.save()
-      // Redirect to new user record.
-      res.json({ userUrl: user.url })
+      if(emailUsed === null){
+        // Save user.
+        await user.save()
+        // Redirect to new user record.
+        res.json({ userUrl: user.url })
+      }else {
+        res.json({err : 'Email Already Registered'})
+      }
     }
   },
 ]
@@ -84,11 +86,12 @@ exports.user_create_post = [
 //> Display user delete form on GET.
 exports.user_delete_get = async (req, res, next) => {
   // Get details of user and all their books (in parallel)
+  console.log(req.params.id)
   const [user, allPostsByUser] = await Promise.all([
     User.findById(req.params.id).exec(),
     Post.find({ user: req.params.id }, 'title summary').exec(),
   ])
-
+  console.log(user)
   if (user === null) {
     // No results.
     res.redirect('/api')
@@ -120,7 +123,7 @@ exports.user_delete_post = async (req, res, next) => {
     })
   } else {
     // USer has no posts. Delete object and redirect to home page.
-    await User.findByIdAndDelete(req.body.userId)
+    await User.findByIdAndDelete(req.params.id)
     res.json({ redirectURL: '/home' })
   }
 }
@@ -152,7 +155,6 @@ exports.user_update_post = [
   body('email', 'Invalid email')
     .trim()
     .isLength({ min: 1 })
-    .stripTags()
     .isEmail(),
   body('password', 'Invalid password').trim().notEmpty(),
 
@@ -179,6 +181,7 @@ exports.user_update_post = [
       return
     } else {
       // Data from form is valid. Update the record.
+      console.log('find&update')
       const updatedUser = await User.findByIdAndUpdate(req.params.id, user, {})
       // Redirect to book detail page.
       res.json({ userUrl: updatedUser.url })

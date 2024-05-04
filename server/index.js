@@ -1,10 +1,12 @@
 const express = require('express')
+require('express-async-errors')
 const mongoose = require('mongoose')
 const cookieParser = require('cookie-parser')
 require('dotenv').config()
 const postRouter = require('./routes/posts')
 const homeRouter = require('./routes/home')
-
+const userRouter = require('./routes/users')
+const commentRouter = require('./routes/comments')
 
 const app = express()
 
@@ -14,8 +16,10 @@ app.use(express.static('public'))
 app.use(cookieParser())
 
 // routes
-app.use('/', homeRouter)
-app.use('/posts', postRouter)
+app.use('/api/', homeRouter)
+app.use('/api/posts', postRouter)
+app.use('/api/users', userRouter)
+app.use('/api/comments', commentRouter)
 
 // Connect :
 const DB_URL = process.env.DB_URL
