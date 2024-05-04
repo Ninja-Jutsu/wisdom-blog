@@ -21,6 +21,7 @@ app.use(cookieParser())
 app.use('*', checkUser) // check for every route if the user is logged in
 app.use('/api/', homeRouter)
 app.use('/api/auth', authRouter)
+app.use('*', requireAuth)
 app.use('/api/posts', postRouter)
 app.use('/api/users', userRouter)
 app.use('/api/comments', commentRouter)

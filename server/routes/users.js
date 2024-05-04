@@ -10,7 +10,7 @@ const user_controller = require('../controllers/userController')
 // // GET catalog home page.
 // router.get('/', user_controller.index)
 
-router.get('*', requireAuth)
+// router.get('*', requireAuth)
 
 // GET request for creating a user. NOTE This must come before routes that display user (uses id).
 router.get('/user/create', user_controller.user_create_get) //!DONE //+Tested
