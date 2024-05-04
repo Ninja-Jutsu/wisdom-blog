@@ -1,6 +1,8 @@
 const jwt = require('jsonwebtoken')
 const User = require('../models/user')
 require('dotenv').config()
+const debug = require('debug')('AUTH')
+const logger = require('../startup/logging')
 
 function requireAuth(req, res, next) {
   const token = req.cookies.jwt // we can only use this because of the cookie parser pack
@@ -15,6 +17,7 @@ function requireAuth(req, res, next) {
       }
     })
   } else {
+    logger.warn('requireAuth: Token not found')
     res.json({ loginPage: './login' })
   }
 }
@@ -33,6 +36,7 @@ const checkUser = (req, res, next) => {
       }
     })
   } else {
+    logger.warn('checkUser: Token not found')
     res.locals.user = null
     next()
   }
