@@ -35,54 +35,6 @@ exports.user_create_get = (req, res, next) => {
   res.status(200).json({ title: 'Create User' })
 }
 
-//> Handle User create on POST.
-exports.user_create_post = [
-  // Validate and sanitize fields.
-  body('username')
-    .trim()
-    .isLength({ min: 1 })
-    .escape()
-    .withMessage('First name must be specified.'),
-  body('email', 'Invalid email')
-    .trim()
-    .isLength({ min: 1 })
-    .isEmail(),
-  body('password', 'Invalid password').trim().notEmpty(),
-
-  // Process request after validation and sanitization.
-  async (req, res, next) => {
-    // Extract the validation errors from a request.
-    const errors = validationResult(req)
-
-    // Create User object with escaped and trimmed data
-    const user = new User({
-      username: req.body.username,
-      email: req.body.email,
-      password: req.body.password,
-    })
-    const emailUsed = await User.findOne({email: user.email})
-    if (!errors.isEmpty()) {
-      // There are errors. Render form again with sanitized values/errors messages.
-      res.json({
-        title: 'Create User',
-        user,
-        errors: errors.array(),
-      })
-      return
-    } else {
-      // Data from form is valid.
-      if(emailUsed === null){
-        // Save user.
-        await user.save()
-        // Redirect to new user record.
-        res.json({ userUrl: user.url })
-      }else {
-        res.json({err : 'Email Already Registered'})
-      }
-    }
-  },
-]
-
 //> Display user delete form on GET.
 exports.user_delete_get = async (req, res, next) => {
   // Get details of user and all their books (in parallel)
@@ -152,10 +104,7 @@ exports.user_update_post = [
     .isLength({ min: 1 })
     .escape()
     .withMessage('First name must be specified.'),
-  body('email', 'Invalid email')
-    .trim()
-    .isLength({ min: 1 })
-    .isEmail(),
+  body('email', 'Invalid email').trim().isLength({ min: 1 }).isEmail(),
   body('password', 'Invalid password').trim().notEmpty(),
 
   // Process request after validation and sanitization.

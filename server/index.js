@@ -3,10 +3,12 @@ require('express-async-errors')
 const mongoose = require('mongoose')
 const cookieParser = require('cookie-parser')
 require('dotenv').config()
+const { requireAuth, checkUser } = require('./middleware/auth')
 const postRouter = require('./routes/posts')
 const homeRouter = require('./routes/home')
 const userRouter = require('./routes/users')
 const commentRouter = require('./routes/comments')
+const authRouter = require('./routes/auth')
 
 const app = express()
 
@@ -16,7 +18,9 @@ app.use(express.static('public'))
 app.use(cookieParser())
 
 // routes
+app.use('*', checkUser) // check for every route if the user is logged in
 app.use('/api/', homeRouter)
+app.use('/api/auth', authRouter)
 app.use('/api/posts', postRouter)
 app.use('/api/users', userRouter)
 app.use('/api/comments', commentRouter)

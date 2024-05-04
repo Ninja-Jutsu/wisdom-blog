@@ -11,10 +11,19 @@ const PostSchema = new Schema({
   likes : [{ type: Schema.Types.ObjectId, ref: 'User'}]
 })
 
-// Virtual for book's URL
+// Virtual for post's URL
 PostSchema.virtual('url').get(function () {
   // We don't use an arrow function as we'll need the this object
   return `/api/posts/${this._id}`
+})
+
+
+// Virtual Date Formatter
+PostSchema.virtual('Date_formatted').get(function () {
+  const createdOn = this.createdOn
+    ? DateTime.fromJSDate(this.createdOn).toLocaleString(DateTime.DATE_MED)
+    : ''
+  return date
 })
 
 
