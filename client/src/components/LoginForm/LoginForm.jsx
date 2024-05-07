@@ -5,12 +5,14 @@ import axios from 'axios'
 import { Formik, Form, Field, ErrorMessage } from 'formik'
 import * as Yup from 'yup'
 import Cookies from 'js-cookie'
+import { currentUserContext } from '../CurrentUserProvider/CurrentUserProvider'
 
 axios.defaults.withCredentials = true //allow exchange with backend
 
 const MAX_AGE = 3 * 24 * 60 * 60
 
 function LoginForm() {
+  const {setUser} = React.useContext(currentUserContext)
   const [err, setErr] = React.useState('')
   const navigate = useNavigate()
   const initialValues = {
@@ -18,11 +20,12 @@ function LoginForm() {
     password: '',
   }
   function onSubmit(data) {
-    console.log(data)
     axios
       .post('http://localhost:5000/api/auth/login', data)
       .then((response) => {
         const userData = response.data
+        console.log(userData)
+        setUser(userData)
         Cookies.set('loggedIn', true)
         console.log('User profile:', userData)
         navigate('/')

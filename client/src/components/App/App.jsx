@@ -13,14 +13,17 @@ import {
 } from 'react-router-dom'
 
 // Layout
+
 import RootLayout from '../../layouts/RootLayout'
+import ProfileLayout from '../../layouts/ProfileLayout'
 
 //Pages
 import Homepage from '../../pages/Homepage'
 import LoginPage from '../../pages/LoginPage'
 import SignupPage from '../../pages/SignupPage'
-import ProfilePage from '../../pages/ProfilePage'
+import ProfilePage, { profileLoader } from '../../pages/ProfilePage'
 import CurrentUserProvider from '../CurrentUserProvider/CurrentUserProvider'
+const ENDPOINT = 'http://localhost:5000/api/auth/current'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -41,9 +44,15 @@ const router = createBrowserRouter(
         element={<SignupPage />}
       />
       <Route
-        path='profile/:id'
-        element={<ProfilePage />}
-      />
+        path='profile'
+        element={<ProfileLayout />}
+      >
+        <Route
+          path=':id'
+          element={<ProfilePage />}
+          loader={profileLoader}
+        />
+      </Route>
     </Route>
   )
 )

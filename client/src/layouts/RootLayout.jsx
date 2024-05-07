@@ -1,3 +1,4 @@
+import axios from 'axios'
 import React from 'react'
 import { Outlet, NavLink } from 'react-router-dom'
 export default function RootLayout() {
@@ -8,7 +9,6 @@ export default function RootLayout() {
           <NavLink to='/'>Home</NavLink>
           <NavLink to='/login'>Login</NavLink>
           <NavLink to='/signup'>Sign-up</NavLink>
-          <NavLink to={`/profile/`}>Profile</NavLink>
         </nav>
       </header>
       <main>
