@@ -6,7 +6,7 @@ import { Formik, Form, Field, ErrorMessage } from 'formik'
 import * as Yup from 'yup'
 import Cookies from 'js-cookie'
 
-axios.defaults.withCredentials = true; // SOLVED IN HOURS
+axios.defaults.withCredentials = true //allow exchange with backend
 
 const MAX_AGE = 3 * 24 * 60 * 60
 
@@ -18,25 +18,20 @@ function LoginForm() {
     password: '',
   }
   function onSubmit(data) {
-    let sentData = data
-    async function fetchLogin() {
-      try {
-        const instance = axios.create({
-          withCredentials: true, // Enable cookie transmission
-          baseURL: 'http://localhost:5000/api/auth', // Replace with your API base URL
-        })
-
-        const response = await instance.post('/login', sentData)
-        Cookies.set('jwt2', sentData.token)
+    console.log(data)
+    axios
+      .post('http://localhost:5000/api/auth/login', data)
+      .then((response) => {
         const userData = response.data
-
+        Cookies.set('loggedIn', true)
         console.log('User profile:', userData)
-      } catch (error) {
+        navigate('/')
+      })
+      .catch((error) => {
         console.error('Error fetching user profile:', error)
+        console.log('/errorFetchPage')
         // Handle errors appropriately (e.g., redirect to login if unauthorized)
-      }
-    }
-    fetchLogin()
+      })
   }
 
   const validationSchema = Yup.object().shape({
@@ -48,7 +43,7 @@ function LoginForm() {
       .required('Password is required'),
   })
   return (
-    <div className='createPostPage'>
+    <div className='Formik'>
       <Formik
         initialValues={initialValues}
         onSubmit={onSubmit}

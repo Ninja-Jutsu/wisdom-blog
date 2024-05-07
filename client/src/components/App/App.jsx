@@ -2,6 +2,7 @@
 // import Main from '../Game'
 // import Header from '../Header'
 import React from 'react'
+import axios from 'axios'
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -15,8 +16,11 @@ import {
 import RootLayout from '../../layouts/RootLayout'
 
 //Pages
-import Home from '../../pages/Home'
-import Login from '../../pages/Login'
+import Homepage from '../../pages/Homepage'
+import LoginPage from '../../pages/LoginPage'
+import SignupPage from '../../pages/SignupPage'
+import ProfilePage from '../../pages/ProfilePage'
+import CurrentUserProvider from '../CurrentUserProvider/CurrentUserProvider'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -26,17 +30,20 @@ const router = createBrowserRouter(
     >
       <Route
         index
-        element={<Home />}
+        element={<Homepage />}
       />
       <Route
-        path='/login'
-        element={<Login />}
+        path='login'
+        element={<LoginPage />}
       />
-      {/* <Route
-        path='/api/posts/:id'
-        element={<Post />}
-      /> */}
-      {/* <Route /> */}
+      <Route
+        path='signup'
+        element={<SignupPage />}
+      />
+      <Route
+        path='profile/:id'
+        element={<ProfilePage />}
+      />
     </Route>
   )
 )
@@ -44,7 +51,9 @@ const router = createBrowserRouter(
 function App() {
   return (
     <div className='app'>
-      <RouterProvider router={router} />
+      <CurrentUserProvider>
+        <RouterProvider router={router} />
+      </CurrentUserProvider>
     </div>
   )
 }
