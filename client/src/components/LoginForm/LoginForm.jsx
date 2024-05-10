@@ -27,7 +27,6 @@ function LoginForm() {
         console.log(userData)
         setUser(userData)
         Cookies.set('loggedIn', true)
-        console.log('User profile:', userData)
         navigate('/')
       })
       .catch((error) => {
@@ -59,7 +58,6 @@ function LoginForm() {
             component='span'
           />
           <Field
-            autoComplete='off'
             id='email'
             name='email'
             placeholder='Email...'

@@ -22,8 +22,9 @@ import Homepage from '../../pages/Homepage'
 import LoginPage from '../../pages/LoginPage'
 import SignupPage from '../../pages/SignupPage'
 import ProfilePage, { profileLoader } from '../../pages/ProfilePage'
-import CurrentUserProvider from '../CurrentUserProvider/CurrentUserProvider'
-const ENDPOINT = 'http://localhost:5000/api/auth/current'
+import NotFoundPage from '../../pages/NotFoundPage'
+import NewPostPage from '../../pages/NewPostPage'
+import SinglePostPage, { postLoader } from '../../pages/SinglePostPage'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -52,7 +53,20 @@ const router = createBrowserRouter(
           element={<ProfilePage />}
           loader={profileLoader}
         />
+        <Route
+          path='NewPostPage'
+          element={<NewPostPage />}
+        />
       </Route>
+      <Route
+        path='posts/:id'
+        element={<SinglePostPage />}
+        loader={postLoader}
+      />
+      <Route
+        path='*'
+        element={<NotFoundPage />}
+      />
     </Route>
   )
 )
@@ -60,9 +74,7 @@ const router = createBrowserRouter(
 function App() {
   return (
     <div className='app'>
-      <CurrentUserProvider>
-        <RouterProvider router={router} />
-      </CurrentUserProvider>
+      <RouterProvider router={router} />
     </div>
   )
 }
