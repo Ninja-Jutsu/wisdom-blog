@@ -10,15 +10,14 @@ function requireAuth(req, res, next) {
   if (token) {
     jwt.verify(token, process.env.SECRET, (err, decodedToken) => {
       if (err) {
-        console.log(err.message)
-        res.json({ loginPage: './login' })
+        res.json({ loginPage: './loginXX' })
       } else {
         next()
       }
     })
   } else {
     logger.warn('requireAuth: Token not found')
-    res.json({ loginPage: './login' })
+    res.json({ loginPage: './loginYY' })
   }
 }
 

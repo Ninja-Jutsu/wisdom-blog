@@ -12,5 +12,7 @@ router.get('/login', authController.login_get) //!DONE tested
 router.post('/login', authController.login_post) //!DONE tested
 // logout
 router.get('/logout', authController.logout_get) //!DONE tested
+// get current user
+router.get('/current', authController.get_currentUser)
 
 module.exports = router

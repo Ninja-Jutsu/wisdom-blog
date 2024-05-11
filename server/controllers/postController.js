@@ -3,10 +3,11 @@ const { body, validationResult } = require('express-validator')
 const Post = require('../models/post')
 const Comment = require('../models/comment')
 const user = require('../models/user')
+const mongoose = require('mongoose');
 
 //> Display list of all Posts.
 exports.post_list = async (req, res) => {
-  const AllPosts = await Post.find().sort({ createdOn: 1 }).exec()
+  const AllPosts = await Post.find().sort({ createdOn: -1 }).populate('user').exec()
   res.status(200).json({
     title: 'Posts Feed',
     posts_list: AllPosts,
@@ -36,7 +37,7 @@ exports.post_create_get = (req, res, next) => {
   res.status(200).json({ title: 'Create post' })
 }
 
-//> Handle Post create on POST req.
+//> Post Create.
 exports.post_create_post = [
   // Validate and sanitize fields.
   body('title')
@@ -58,6 +59,7 @@ exports.post_create_post = [
     const post = new Post({
       title: req.body.title,
       desc: req.body.desc,
+      user: req.body.user,
     })
     if (!errors.isEmpty()) {
       // There are errors. Render form again with sanitized values/errors messages.
@@ -111,7 +113,6 @@ exports.post_delete_post = async (req, res, next) => {
 
   if (allCommentsByPost.length > 0) {
     allCommentsByPost.map(async (comment) => {
-      console.log('deleted comment: ' + comment.text)
       await Comment.findByIdAndDelete(comment._id)
     })
   }
@@ -167,7 +168,6 @@ exports.post_update_post = [
       return
     } else {
       // Data from form is valid. Update the record.
-      console.log('find&update')
       const updatedPost = await Post.findByIdAndUpdate(req.params.id, post, {})
       // Redirect to book detail page.
       res.json({ postUrl: updatedPost.url })

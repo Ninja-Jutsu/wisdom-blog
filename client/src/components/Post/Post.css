@@ -1,6 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Jersey+25+Charted&family=Poetsen+One&display=swap');
 * {
   padding: 0;
   margin: 0;
+}
+
+/* fonts */
+
+.arabic-text-font {
+  font-family: 'Cairo', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.paragraph-title-font {
+  font-family: 'Jersey 25 Charted', sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .postCard {
@@ -14,12 +30,13 @@
   text-decoration: none;
 }
 .postTitle {
+  margin-left: 5px;
   font-size: 1.5em;
   border-bottom: 1px solid darkgrey;
 }
 
 .postDesc {
-  padding: 5px;
+  margin-left: 5px;
 }
 
 .subDetails {

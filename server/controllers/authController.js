@@ -2,9 +2,35 @@ const User = require('../models/user')
 const { body, validationResult } = require('express-validator')
 require('dotenv').config()
 const { createToken, maxAge } = require('../middleware/auth')
+const jwt = require('jsonwebtoken')
 
+//> Current user
+module.exports.get_currentUser = (req, res) => {
+  const token = req.cookies.jwt
+  console.log(token)
+  if (token) {
+    console.log('Token exists')
+    jwt.verify(token, process.env.SECRET, (err, decodedToken) => {
+      if (err) {
+        console.log('not verified')
+        res.json({ loginPage: './login' })
+      } else {
+        console.log('verified')
+        res.json({user : decodedToken})
+      }
+    })
+  } else {
+    logger.warn('requireAuth: Token not found')
+    res.json({ loginPage: './login' })
+  }
+}
 //> Login GET
 module.exports.login_get = (req, res) => {
+  const token = req.cookies.jwt
+  if (token) {
+    res.json({ errMessage: 'you already have an account' })
+    return
+  }
   res.json({ link: '/login' })
 }
 //> Login POST
@@ -13,8 +39,9 @@ module.exports.login_post = async (req, res) => {
   const user = await User.login(email, password)
   if (typeof user !== 'string') {
     const token = createToken(user._id)
-    res.cookie('jwt', token, { httpOnly: true, maxAge: maxAge * 1000 })
-    res.status(200).json({ user })
+    res.cookie('jwt', token, { maxAge: maxAge * 1000 , httpOnly: true,  })
+
+    res.status(200).json({ user, token: token })
   } else {
     if (user === 'incorrect email' || user === 'incorrect password') {
       res.status(400).json({ err: user })
@@ -29,6 +56,11 @@ module.exports.logout_get = async (req, res) => {
 }
 
 module.exports.signup_get = (req, res) => {
+  const token = req.cookies.jwt
+  if (token) {
+    res.json({ errMessage: 'you already have an account' })
+    return
+  }
   res.json({ link: '/signup' })
 }
 

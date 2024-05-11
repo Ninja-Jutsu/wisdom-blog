@@ -46,7 +46,6 @@ UserSchema.statics.login = async function (email, password) {
   if (user) {
     const auth = await bcrypt.compare(password, user.password) // this will return a Boolean
     if (auth) {
-      console.log('all good')
       return user
     }
     return 'incorrect password'
@@ -56,7 +55,7 @@ UserSchema.statics.login = async function (email, password) {
 
 // Virtual for book's URL
 UserSchema.virtual('url').get(function () {
-  return `/user/${this._id}`
+  return `/users/${this._id}`
 })
 
 // Export model

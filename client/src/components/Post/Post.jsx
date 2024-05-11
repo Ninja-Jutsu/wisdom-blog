@@ -7,17 +7,17 @@ function Post({ post }) {
   //format time:
   let createdOn = post.createdOn.toString()
   const date = new Date(createdOn)
+  console.log(date)
   const now = Date.now()
   const diffInMilliseconds = now - date.getTime()
   const hoursAgo = Math.floor(diffInMilliseconds / (1000 * 3600))
 
-  console.log(`${hoursAgo} hours ago`)
   return (
     <section className='postCard'>
-      <div className='postTitle'>
+      <div className='postTitle paragraph-title-font arabic-text-font'>
         <Link to={`posts/${post._id}`}>{post.title}</Link>
       </div>
-      <div className='postDesc'>
+      <div className='postDesc arabic-text-font'>
         <Link to={`/posts/${post._id}`}> {post.desc}</Link>
       </div>
       <div className='subDetails'>

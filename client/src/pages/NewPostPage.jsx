@@ -9,9 +9,10 @@ axios.defaults.withCredentials = true //allow exchange with backend
 
 export default function NewPostPage() {
   const { user } = React.useContext(currentUserContext)
+  let userId 
   if (user !== null) {
+    userId = user.user._id.toString()
   }
-  const userId = user.user._id.toString()
   const navigate = useNavigate()
   const initialValues = {
     title: '',

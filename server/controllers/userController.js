@@ -13,13 +13,14 @@ exports.user_list = async (req, res, next) => {
 
 //> Display detail page for a specific User.
 exports.user_detail = async (req, res, next) => {
+  console.log((req.params.id))
   const [user, allPostsByUser] = await Promise.all([
     User.findById(req.params.id).exec(),
     Post.find({ user: req.params.id }, 'title summary').exec(),
   ])
   if (user === null) {
     const err = new Error('no such user')
-    res.status(404)
+    res.status(404).json({err : 'no such user'})
     return next(err)
   }
   res.status(200).json({

@@ -10,3 +10,2099 @@
 2024-05-04T15:41:50.009Z [my-app] info: Connected to MongoDB..
 2024-05-04T15:46:54.930Z [my-app] info: Server is listening on port: 5000
 2024-05-04T15:46:55.426Z [my-app] info: Connected to MongoDB..
+2024-05-05T15:34:30.704Z [my-app] info: Server is listening on port: 5000
+2024-05-05T15:34:31.137Z [my-app] info: Connected to MongoDB..
+2024-05-05T15:41:36.584Z [my-app] warn: checkUser: Token not found
+2024-05-05T15:41:36.584Z [my-app] warn: requireAuth: Token not found
+2024-05-05T15:41:36.589Z [my-app] warn: checkUser: Token not found
+2024-05-05T15:41:36.589Z [my-app] warn: requireAuth: Token not found
+2024-05-05T15:41:55.292Z [my-app] warn: checkUser: Token not found
+2024-05-05T15:41:55.292Z [my-app] warn: requireAuth: Token not found
+2024-05-05T15:42:00.483Z [my-app] warn: checkUser: Token not found
+2024-05-05T15:42:00.483Z [my-app] warn: requireAuth: Token not found
+2024-05-05T15:50:37.506Z [my-app] info: Server is listening on port: 5000
+2024-05-05T15:50:37.825Z [my-app] info: Connected to MongoDB..
+2024-05-05T15:50:42.529Z [my-app] info: Server is listening on port: 5000
+2024-05-05T15:50:42.781Z [my-app] info: Connected to MongoDB..
+2024-05-05T15:50:44.459Z [my-app] info: Server is listening on port: 5000
+2024-05-05T15:50:45.801Z [my-app] info: Connected to MongoDB..
+2024-05-05T15:50:54.652Z [my-app] info: Server is listening on port: 5000
+2024-05-05T15:50:55.098Z [my-app] info: Connected to MongoDB..
+2024-05-05T15:50:56.123Z [my-app] info: Server is listening on port: 5000
+2024-05-05T15:50:56.438Z [my-app] info: Connected to MongoDB..
+2024-05-05T15:51:07.964Z [my-app] info: Server is listening on port: 5000
+2024-05-05T15:51:08.303Z [my-app] info: Connected to MongoDB..
+2024-05-05T15:51:16.902Z [my-app] info: Server is listening on port: 5000
+2024-05-05T15:51:17.209Z [my-app] info: Connected to MongoDB..
+2024-05-05T15:51:32.466Z [my-app] info: Server is listening on port: 5000
+2024-05-05T15:51:32.852Z [my-app] info: Connected to MongoDB..
+2024-05-05T15:51:34.310Z [my-app] info: Server is listening on port: 5000
+2024-05-05T15:51:34.549Z [my-app] info: Connected to MongoDB..
+2024-05-05T15:51:40.228Z [my-app] info: Server is listening on port: 5000
+2024-05-05T15:51:40.739Z [my-app] info: Connected to MongoDB..
+2024-05-05T15:51:44.808Z [my-app] info: Server is listening on port: 5000
+2024-05-05T15:51:46.154Z [my-app] info: Connected to MongoDB..
+2024-05-05T15:51:56.979Z [my-app] info: Server is listening on port: 5000
+2024-05-05T15:51:58.304Z [my-app] info: Connected to MongoDB..
+2024-05-05T15:52:00.441Z [my-app] info: Server is listening on port: 5000
+2024-05-05T15:52:00.754Z [my-app] info: Connected to MongoDB..
+2024-05-05T15:52:05.521Z [my-app] info: Server is listening on port: 5000
+2024-05-05T15:52:05.876Z [my-app] info: Connected to MongoDB..
+2024-05-05T15:52:29.158Z [my-app] info: Server is listening on port: 5000
+2024-05-05T15:52:29.546Z [my-app] info: Connected to MongoDB..
+2024-05-05T15:52:30.846Z [my-app] info: Server is listening on port: 5000
+2024-05-05T15:52:31.095Z [my-app] info: Connected to MongoDB..
+2024-05-05T15:52:36.130Z [my-app] info: Server is listening on port: 5000
+2024-05-05T15:52:36.395Z [my-app] info: Connected to MongoDB..
+2024-05-05T15:52:39.606Z [my-app] info: Server is listening on port: 5000
+2024-05-05T15:52:39.949Z [my-app] info: Connected to MongoDB..
+2024-05-05T15:53:00.752Z [my-app] warn: checkUser: Token not found
+2024-05-05T15:53:00.753Z [my-app] warn: requireAuth: Token not found
+2024-05-05T15:53:00.756Z [my-app] warn: checkUser: Token not found
+2024-05-05T15:53:00.757Z [my-app] warn: requireAuth: Token not found
+2024-05-05T15:59:41.819Z [my-app] warn: checkUser: Token not found
+2024-05-05T15:59:41.819Z [my-app] warn: requireAuth: Token not found
+2024-05-05T15:59:51.508Z [my-app] warn: checkUser: Token not found
+2024-05-05T15:59:51.510Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:00:08.932Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:00:25.507Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:00:30.379Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:01:49.687Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:01:49.690Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:01:49.728Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:20:47.751Z [my-app] info: Server is listening on port: 5000
+2024-05-05T16:20:48.399Z [my-app] info: Connected to MongoDB..
+2024-05-05T16:32:58.596Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:32:58.597Z [my-app] warn: requireAuth: Token not found
+2024-05-05T16:32:58.600Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:32:58.600Z [my-app] warn: requireAuth: Token not found
+2024-05-05T16:33:08.043Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:33:08.045Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:33:46.665Z [my-app] info: Server is listening on port: 5000
+2024-05-05T16:33:47.118Z [my-app] info: Connected to MongoDB..
+2024-05-05T16:35:51.539Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:35:51.541Z [my-app] warn: requireAuth: Token not found
+2024-05-05T16:35:51.546Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:35:51.546Z [my-app] warn: requireAuth: Token not found
+2024-05-05T16:35:53.005Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:35:53.006Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:37:26.694Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:37:26.695Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:38:39.271Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:38:39.342Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:38:39.343Z [my-app] warn: requireAuth: Token not found
+2024-05-05T16:38:39.345Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:38:39.345Z [my-app] warn: requireAuth: Token not found
+2024-05-05T16:39:54.252Z [my-app] info: Server is listening on port: 5000
+2024-05-05T16:39:54.588Z [my-app] info: Connected to MongoDB..
+2024-05-05T16:40:03.835Z [my-app] info: Server is listening on port: 5000
+2024-05-05T16:40:04.079Z [my-app] info: Connected to MongoDB..
+2024-05-05T16:40:05.585Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:40:05.590Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:40:12.545Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:40:12.620Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:40:12.620Z [my-app] warn: requireAuth: Token not found
+2024-05-05T16:40:12.622Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:40:12.622Z [my-app] warn: requireAuth: Token not found
+2024-05-05T16:41:04.268Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:41:04.269Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:41:15.890Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:41:15.961Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:41:15.962Z [my-app] warn: requireAuth: Token not found
+2024-05-05T16:41:15.963Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:41:15.963Z [my-app] warn: requireAuth: Token not found
+2024-05-05T16:43:16.897Z [my-app] info: Server is listening on port: 5000
+2024-05-05T16:43:17.235Z [my-app] info: Connected to MongoDB..
+2024-05-05T16:43:19.390Z [my-app] info: Server is listening on port: 5000
+2024-05-05T16:43:19.649Z [my-app] info: Connected to MongoDB..
+2024-05-05T16:43:23.093Z [my-app] info: Server is listening on port: 5000
+2024-05-05T16:43:23.396Z [my-app] info: Connected to MongoDB..
+2024-05-05T16:53:05.673Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:53:05.678Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:53:27.399Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:53:27.481Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:53:27.482Z [my-app] warn: requireAuth: Token not found
+2024-05-05T16:53:27.483Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:53:27.484Z [my-app] warn: requireAuth: Token not found
+2024-05-05T16:56:24.145Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:56:24.146Z [my-app] warn: requireAuth: Token not found
+2024-05-05T16:56:24.147Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:56:24.147Z [my-app] warn: requireAuth: Token not found
+2024-05-05T16:56:28.272Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:56:28.274Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:56:46.585Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:56:46.652Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:56:46.653Z [my-app] warn: requireAuth: Token not found
+2024-05-05T16:56:46.653Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:56:46.653Z [my-app] warn: requireAuth: Token not found
+2024-05-05T16:58:22.052Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:58:22.053Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:58:34.889Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:58:34.958Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:58:34.958Z [my-app] warn: requireAuth: Token not found
+2024-05-05T16:58:34.958Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:58:34.958Z [my-app] warn: requireAuth: Token not found
+2024-05-05T16:59:46.751Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:59:46.751Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:59:54.531Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:59:54.600Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:59:54.600Z [my-app] warn: requireAuth: Token not found
+2024-05-05T16:59:54.601Z [my-app] warn: checkUser: Token not found
+2024-05-05T16:59:54.601Z [my-app] warn: requireAuth: Token not found
+2024-05-05T17:04:26.060Z [my-app] warn: checkUser: Token not found
+2024-05-05T17:04:26.061Z [my-app] warn: checkUser: Token not found
+2024-05-05T17:04:33.192Z [my-app] warn: checkUser: Token not found
+2024-05-05T17:04:33.261Z [my-app] warn: checkUser: Token not found
+2024-05-05T17:04:33.261Z [my-app] warn: requireAuth: Token not found
+2024-05-05T17:04:33.262Z [my-app] warn: checkUser: Token not found
+2024-05-05T17:04:33.262Z [my-app] warn: requireAuth: Token not found
+2024-05-05T17:05:31.903Z [my-app] warn: checkUser: Token not found
+2024-05-05T17:05:31.904Z [my-app] warn: checkUser: Token not found
+2024-05-05T17:11:43.515Z [my-app] warn: checkUser: Token not found
+2024-05-05T17:11:43.515Z [my-app] warn: requireAuth: Token not found
+2024-05-05T17:12:17.661Z [my-app] warn: checkUser: Token not found
+2024-05-05T18:54:40.057Z [my-app] info: Server is listening on port: 5000
+2024-05-05T18:54:40.312Z [my-app] info: Connected to MongoDB..
+2024-05-05T18:57:48.425Z [my-app] info: Server is listening on port: 5000
+2024-05-05T18:57:49.451Z [my-app] info: Connected to MongoDB..
+2024-05-05T18:58:19.651Z [my-app] info: Server is listening on port: 5000
+2024-05-05T18:58:19.865Z [my-app] info: Connected to MongoDB..
+2024-05-05T18:58:37.337Z [my-app] info: Server is listening on port: 5000
+2024-05-05T18:58:37.551Z [my-app] info: Connected to MongoDB..
+2024-05-05T18:58:44.756Z [my-app] warn: checkUser: Token not found
+2024-05-05T18:58:44.756Z [my-app] warn: requireAuth: Token not found
+2024-05-05T18:58:44.759Z [my-app] warn: checkUser: Token not found
+2024-05-05T18:58:44.759Z [my-app] warn: requireAuth: Token not found
+2024-05-05T18:58:47.614Z [my-app] warn: checkUser: Token not found
+2024-05-05T18:58:47.616Z [my-app] warn: checkUser: Token not found
+2024-05-05T18:59:06.485Z [my-app] warn: checkUser: Token not found
+2024-05-05T18:59:06.567Z [my-app] warn: checkUser: Token not found
+2024-05-05T18:59:06.567Z [my-app] warn: requireAuth: Token not found
+2024-05-05T18:59:06.569Z [my-app] warn: checkUser: Token not found
+2024-05-05T18:59:06.570Z [my-app] warn: requireAuth: Token not found
+2024-05-05T18:59:43.547Z [my-app] info: Server is listening on port: 5000
+2024-05-05T18:59:43.814Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:00:44.381Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:00:44.384Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:00:55.437Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:03:27.985Z [my-app] info: Server is listening on port: 5000
+2024-05-05T19:03:28.213Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:03:33.729Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:03:33.736Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:03:44.521Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:04:11.169Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:05:42.027Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:05:52.124Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:06:47.144Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:06:47.725Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:06:47.726Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:06:47.727Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:06:47.728Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:07:05.156Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:07:05.157Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:07:15.640Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:07:16.227Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:07:16.227Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:07:16.228Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:07:16.228Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:07:22.838Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:07:22.838Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:07:22.839Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:07:22.839Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:07:28.291Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:07:28.292Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:07:40.991Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:07:41.574Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:07:41.574Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:07:41.575Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:07:41.575Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:08:16.442Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:08:16.442Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:08:40.544Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:08:41.130Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:08:41.130Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:08:41.131Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:08:41.131Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:09:03.829Z [my-app] info: Server is listening on port: 5000
+2024-05-05T19:09:04.068Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:09:08.669Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:09:08.670Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:09:08.674Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:09:08.674Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:09:09.702Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:09:09.705Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:09:19.353Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:09:19.423Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:09:19.423Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:09:19.425Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:09:19.425Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:09:30.942Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:09:30.944Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:09:41.786Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:09:41.849Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:09:41.849Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:09:41.850Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:09:41.850Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:09:48.816Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:09:48.818Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:09:54.619Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:09:54.688Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:09:54.688Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:09:54.688Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:09:54.688Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:10:21.850Z [my-app] info: Server is listening on port: 5000
+2024-05-05T19:10:22.179Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:10:24.547Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:10:24.550Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:10:34.524Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:10:34.595Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:10:34.596Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:10:34.597Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:10:34.597Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:11:30.259Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:11:30.260Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:11:30.262Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:11:30.263Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:11:31.006Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:11:31.008Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:11:46.003Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:11:46.068Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:11:46.068Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:11:46.069Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:11:46.069Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:12:57.424Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:12:57.425Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:13:10.071Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:13:10.135Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:13:10.135Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:13:10.136Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:13:10.136Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:15:54.730Z [my-app] info: Server is listening on port: 5000
+2024-05-05T19:15:54.965Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:15:57.964Z [my-app] info: Server is listening on port: 5000
+2024-05-05T19:15:58.168Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:16:00.420Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:16:00.421Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:16:00.425Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:16:00.425Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:16:01.444Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:16:01.446Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:16:10.941Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:16:11.012Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:16:11.012Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:16:11.014Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:16:11.014Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:16:26.352Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:16:26.352Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:16:26.354Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:16:26.355Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:16:28.643Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:16:28.644Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:16:39.792Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:16:39.872Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:16:39.873Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:16:39.874Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:16:39.874Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:21:48.581Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:21:48.581Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:22:02.302Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:22:02.878Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:22:02.878Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:22:02.879Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:22:02.879Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:23:20.114Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:23:20.114Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:23:20.115Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:23:20.115Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:23:30.280Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:23:30.281Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:23:52.857Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:23:53.434Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:23:53.435Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:23:53.436Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:23:53.436Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:24:49.920Z [my-app] info: Server is listening on port: 5000
+2024-05-05T19:24:50.350Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:24:52.468Z [my-app] info: Server is listening on port: 5000
+2024-05-05T19:24:52.681Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:24:53.711Z [my-app] info: Server is listening on port: 5000
+2024-05-05T19:24:53.914Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:24:59.073Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:24:59.074Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:24:59.078Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:24:59.078Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:25:00.469Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:25:00.470Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:25:10.952Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:25:11.531Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:25:11.532Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:25:11.533Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:25:11.533Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:28:16.007Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:28:16.007Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:28:16.008Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:28:16.008Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:28:30.858Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:28:30.859Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:34:05.604Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:34:05.605Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:34:05.605Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:34:05.605Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:34:06.283Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:34:06.284Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:36:46.123Z [my-app] info: Server is listening on port: 5000
+2024-05-05T19:36:46.429Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:37:30.160Z [my-app] info: Server is listening on port: 5000
+2024-05-05T19:37:30.394Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:37:31.702Z [my-app] info: Server is listening on port: 5000
+2024-05-05T19:37:31.916Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:37:33.004Z [my-app] info: Server is listening on port: 5000
+2024-05-05T19:37:33.191Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:37:39.878Z [my-app] info: Server is listening on port: 5000
+2024-05-05T19:37:40.095Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:37:51.795Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:37:51.799Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:37:53.920Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:37:53.921Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:37:53.922Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:37:53.922Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:37:54.743Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:37:54.745Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:38:07.553Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:38:38.179Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:39:23.253Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:39:32.658Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:39:32.659Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:40:48.909Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:41:29.151Z [my-app] info: Server is listening on port: 5000
+2024-05-05T19:41:29.372Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:41:37.814Z [my-app] info: Server is listening on port: 5000
+2024-05-05T19:41:38.003Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:41:47.822Z [my-app] info: Server is listening on port: 5000
+2024-05-05T19:41:48.063Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:42:06.210Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:42:06.210Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:42:06.214Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:42:06.214Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:42:18.449Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:42:18.450Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:42:59.168Z [my-app] info: Server is listening on port: 5000
+2024-05-05T19:42:59.443Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:43:05.555Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:43:05.556Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:43:05.559Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:43:05.559Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:43:11.192Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:43:11.194Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:43:29.578Z [my-app] info: Server is listening on port: 5000
+2024-05-05T19:43:29.796Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:43:31.749Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:43:31.749Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:43:31.752Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:43:31.753Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:43:32.324Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:43:32.326Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:43:51.129Z [my-app] info: Server is listening on port: 5000
+2024-05-05T19:43:51.389Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:43:52.554Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:43:52.555Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:43:52.558Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:43:52.558Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:43:53.158Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:43:53.164Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:44:36.497Z [my-app] info: Server is listening on port: 5000
+2024-05-05T19:44:36.726Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:44:37.819Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:44:37.819Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:44:37.823Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:44:37.823Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:44:38.403Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:44:38.406Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:44:50.531Z [my-app] info: Server is listening on port: 5000
+2024-05-05T19:44:50.746Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:44:54.496Z [my-app] info: Server is listening on port: 5000
+2024-05-05T19:44:54.711Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:44:57.809Z [my-app] info: Server is listening on port: 5000
+2024-05-05T19:44:57.986Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:45:32.888Z [my-app] info: Server is listening on port: 5000
+2024-05-05T19:45:33.098Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:45:45.594Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:45:45.595Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:46:25.984Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:46:37.723Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:49:10.550Z [my-app] info: Server is listening on port: 5000
+2024-05-05T19:49:10.839Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:50:09.337Z [my-app] info: Server is listening on port: 5000
+2024-05-05T19:50:09.690Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:50:14.937Z [my-app] info: Server is listening on port: 5000
+2024-05-05T19:50:15.185Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:50:19.677Z [my-app] info: Server is listening on port: 5000
+2024-05-05T19:50:19.911Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:50:30.135Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:50:30.135Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:50:30.138Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:50:30.139Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:50:31.374Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:50:31.376Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:52:10.292Z [my-app] info: Server is listening on port: 5000
+2024-05-05T19:52:10.516Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:52:18.652Z [my-app] info: Server is listening on port: 5000
+2024-05-05T19:52:18.836Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:52:24.429Z [my-app] info: Server is listening on port: 5000
+2024-05-05T19:52:24.669Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:52:27.543Z [my-app] info: Server is listening on port: 5000
+2024-05-05T19:52:27.736Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:53:48.441Z [my-app] info: Server is listening on port: 5000
+2024-05-05T19:53:48.671Z [my-app] info: Connected to MongoDB..
+2024-05-05T19:56:59.537Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:56:59.538Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:56:59.541Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:56:59.541Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:57:00.739Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:57:00.742Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:57:28.728Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:57:28.728Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:57:28.729Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:57:28.729Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:57:33.115Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:57:33.117Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:57:41.398Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:58:02.249Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:58:02.249Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:58:02.250Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:58:02.250Z [my-app] warn: requireAuth: Token not found
+2024-05-05T19:58:04.069Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:58:04.070Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:59:00.795Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:59:09.971Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:59:09.973Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:59:12.334Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:59:23.192Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:59:26.577Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:59:29.801Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:59:31.350Z [my-app] warn: checkUser: Token not found
+2024-05-05T19:59:57.919Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:00:20.791Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:00:20.792Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:00:23.808Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:00:23.808Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:00:23.809Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:00:23.809Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:00:25.183Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:00:25.184Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:00:37.953Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:00:37.953Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:00:37.955Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:00:37.955Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:01:08.783Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:01:08.784Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:01:42.960Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:01:53.253Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:01:53.253Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:01:53.254Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:01:53.254Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:01:53.979Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:01:53.980Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:02:05.549Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:02:06.453Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:02:06.453Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:02:06.454Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:02:06.454Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:02:07.178Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:02:07.179Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:05:06.647Z [my-app] info: Server is listening on port: 5000
+2024-05-05T20:05:07.998Z [my-app] info: Connected to MongoDB..
+2024-05-05T20:05:26.787Z [my-app] info: Server is listening on port: 5000
+2024-05-05T20:05:26.986Z [my-app] info: Connected to MongoDB..
+2024-05-05T20:05:29.228Z [my-app] info: Server is listening on port: 5000
+2024-05-05T20:05:29.428Z [my-app] info: Connected to MongoDB..
+2024-05-05T20:14:13.561Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:14:13.561Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:14:13.565Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:14:13.565Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:14:18.372Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:14:18.375Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:16:06.084Z [my-app] info: Server is listening on port: 5000
+2024-05-05T20:16:06.375Z [my-app] info: Connected to MongoDB..
+2024-05-05T20:16:20.445Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:16:20.446Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:16:20.447Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:16:20.447Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:16:53.027Z [my-app] info: Server is listening on port: 5000
+2024-05-05T20:16:53.220Z [my-app] info: Connected to MongoDB..
+2024-05-05T20:16:58.272Z [my-app] info: Server is listening on port: 5000
+2024-05-05T20:16:58.479Z [my-app] info: Connected to MongoDB..
+2024-05-05T20:17:01.992Z [my-app] info: Server is listening on port: 5000
+2024-05-05T20:17:03.238Z [my-app] info: Connected to MongoDB..
+2024-05-05T20:17:05.445Z [my-app] info: Server is listening on port: 5000
+2024-05-05T20:17:05.651Z [my-app] info: Connected to MongoDB..
+2024-05-05T20:17:19.309Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:17:19.321Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:23:56.195Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:23:56.195Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:23:56.196Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:23:56.197Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:25:38.941Z [my-app] info: Server is listening on port: 5000
+2024-05-05T20:25:39.219Z [my-app] info: Connected to MongoDB..
+2024-05-05T20:25:45.628Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:25:45.629Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:25:45.633Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:25:45.634Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:25:50.921Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:25:50.928Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:26:20.775Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:28:19.115Z [my-app] info: Server is listening on port: 5000
+2024-05-05T20:28:19.355Z [my-app] info: Connected to MongoDB..
+2024-05-05T20:29:06.011Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:29:06.016Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:29:33.673Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:29:33.673Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:29:33.674Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:29:33.675Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:29:34.677Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:29:34.678Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:30:39.392Z [my-app] info: Server is listening on port: 5000
+2024-05-05T20:30:39.639Z [my-app] info: Connected to MongoDB..
+2024-05-05T20:30:49.401Z [my-app] info: Server is listening on port: 5000
+2024-05-05T20:30:49.657Z [my-app] info: Connected to MongoDB..
+2024-05-05T20:30:49.994Z [my-app] info: Server is listening on port: 5000
+2024-05-05T20:30:50.194Z [my-app] info: Connected to MongoDB..
+2024-05-05T20:30:57.356Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:30:57.356Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:30:57.360Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:30:57.361Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:31:03.209Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:31:03.212Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:31:13.153Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:31:26.248Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:31:26.248Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:31:26.249Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:31:26.249Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:32:12.465Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:32:12.465Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:32:12.468Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:32:12.468Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:32:41.199Z [my-app] info: Server is listening on port: 5000
+2024-05-05T20:32:41.471Z [my-app] info: Connected to MongoDB..
+2024-05-05T20:32:43.700Z [my-app] info: Server is listening on port: 5000
+2024-05-05T20:32:43.913Z [my-app] info: Connected to MongoDB..
+2024-05-05T20:32:53.030Z [my-app] info: Server is listening on port: 5000
+2024-05-05T20:32:53.263Z [my-app] info: Connected to MongoDB..
+2024-05-05T20:32:58.805Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:33:02.397Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:33:02.397Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:33:02.399Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:33:02.399Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:33:13.389Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:33:13.390Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:33:35.120Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:33:52.799Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:33:52.799Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:33:52.800Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:33:52.801Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:40:44.317Z [my-app] info: Server is listening on port: 5000
+2024-05-05T20:40:44.698Z [my-app] info: Connected to MongoDB..
+2024-05-05T20:40:46.461Z [my-app] info: Server is listening on port: 5000
+2024-05-05T20:40:46.674Z [my-app] info: Connected to MongoDB..
+2024-05-05T20:40:52.414Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:40:52.415Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:40:52.419Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:40:52.420Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:40:53.754Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:40:53.756Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:41:02.393Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:47:51.555Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:47:51.555Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:47:51.556Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:47:51.556Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:47:53.165Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:47:53.167Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:48:03.305Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:48:03.311Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:49:36.249Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:49:36.250Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:49:45.544Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:50:03.165Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:54:04.212Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:54:04.212Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:54:04.213Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:54:04.213Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:54:50.551Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:54:50.551Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:54:50.554Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:54:50.554Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:54:55.659Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:54:55.661Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:58:18.127Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:58:18.128Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:58:40.076Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:58:40.076Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:58:40.077Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:58:40.077Z [my-app] warn: requireAuth: Token not found
+2024-05-05T20:58:50.386Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:58:50.387Z [my-app] warn: checkUser: Token not found
+2024-05-05T20:58:59.608Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:00:02.762Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:00:02.762Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:00:02.763Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:00:02.763Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:00:06.228Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:00:06.229Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:00:25.512Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:00:25.512Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:00:25.513Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:00:25.513Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:00:31.418Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:00:31.419Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:02:59.653Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:02:59.654Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:02:59.654Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:02:59.654Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:03:10.406Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:03:10.411Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:03:20.540Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:03:42.396Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:03:42.396Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:03:42.397Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:03:42.397Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:03:53.718Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:03:53.719Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:04:12.824Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:04:12.825Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:04:12.827Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:04:12.827Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:05:24.277Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:05:33.008Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:05:36.828Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:06:53.328Z [my-app] info: Server is listening on port: 5000
+2024-05-05T21:06:53.576Z [my-app] info: Connected to MongoDB..
+2024-05-05T21:07:00.063Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:07:00.068Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:07:20.977Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:07:20.978Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:07:20.981Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:07:20.981Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:08:25.889Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:08:27.270Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:08:27.270Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:08:27.276Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:08:27.276Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:08:28.418Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:08:28.420Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:12:43.663Z [my-app] info: Server is listening on port: 5000
+2024-05-05T21:12:43.945Z [my-app] info: Connected to MongoDB..
+2024-05-05T21:12:47.601Z [my-app] info: Server is listening on port: 5000
+2024-05-05T21:12:47.799Z [my-app] info: Connected to MongoDB..
+2024-05-05T21:12:51.431Z [my-app] info: Server is listening on port: 5000
+2024-05-05T21:12:51.636Z [my-app] info: Connected to MongoDB..
+2024-05-05T21:12:57.576Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:12:57.576Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:12:57.580Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:12:57.580Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:12:59.667Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:12:59.667Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:12:59.668Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:12:59.668Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:13:18.979Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:13:18.981Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:13:29.360Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:13:33.611Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:13:33.611Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:13:33.612Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:13:33.612Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:13:36.759Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:13:36.760Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:21:09.454Z [my-app] info: Server is listening on port: 5000
+2024-05-05T21:21:09.711Z [my-app] info: Connected to MongoDB..
+2024-05-05T21:21:14.356Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:21:14.362Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:21:32.758Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:21:32.759Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:21:32.760Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:21:32.760Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:24:50.118Z [my-app] info: Server is listening on port: 5000
+2024-05-05T21:24:50.390Z [my-app] info: Connected to MongoDB..
+2024-05-05T21:24:51.734Z [my-app] info: Server is listening on port: 5000
+2024-05-05T21:24:51.961Z [my-app] info: Connected to MongoDB..
+2024-05-05T21:25:13.345Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:25:13.345Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:25:13.348Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:25:13.349Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:25:23.343Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:25:23.345Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:29:46.435Z [my-app] info: Server is listening on port: 5000
+2024-05-05T21:29:46.698Z [my-app] info: Connected to MongoDB..
+2024-05-05T21:29:58.323Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:29:58.324Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:29:58.328Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:29:58.328Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:29:58.996Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:29:58.998Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:30:12.689Z [my-app] info: Server is listening on port: 5000
+2024-05-05T21:30:12.889Z [my-app] info: Connected to MongoDB..
+2024-05-05T21:30:14.514Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:30:14.515Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:30:14.518Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:30:14.518Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:30:15.095Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:30:15.101Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:30:45.718Z [my-app] info: Server is listening on port: 5000
+2024-05-05T21:30:45.967Z [my-app] info: Connected to MongoDB..
+2024-05-05T21:30:54.188Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:30:54.188Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:30:54.192Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:30:54.192Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:30:56.193Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:30:56.200Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:31:29.456Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:31:29.457Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:31:29.458Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:31:29.458Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:31:36.836Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:31:36.839Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:31:53.848Z [my-app] info: Server is listening on port: 5000
+2024-05-05T21:31:54.136Z [my-app] info: Connected to MongoDB..
+2024-05-05T21:31:55.638Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:31:55.639Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:31:55.642Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:31:55.642Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:31:56.242Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:31:56.245Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:35:04.747Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:35:47.894Z [my-app] info: Server is listening on port: 5000
+2024-05-05T21:35:48.148Z [my-app] info: Connected to MongoDB..
+2024-05-05T21:36:11.069Z [my-app] info: Server is listening on port: 5000
+2024-05-05T21:36:11.290Z [my-app] info: Connected to MongoDB..
+2024-05-05T21:36:27.683Z [my-app] info: Server is listening on port: 5000
+2024-05-05T21:36:27.876Z [my-app] info: Connected to MongoDB..
+2024-05-05T21:37:43.890Z [my-app] info: Server is listening on port: 5000
+2024-05-05T21:37:44.164Z [my-app] info: Connected to MongoDB..
+2024-05-05T21:38:00.301Z [my-app] info: Server is listening on port: 5000
+2024-05-05T21:38:00.508Z [my-app] info: Connected to MongoDB..
+2024-05-05T21:38:04.367Z [my-app] info: Server is listening on port: 5000
+2024-05-05T21:38:04.566Z [my-app] info: Connected to MongoDB..
+2024-05-05T21:38:11.644Z [my-app] info: Server is listening on port: 5000
+2024-05-05T21:38:11.917Z [my-app] info: Connected to MongoDB..
+2024-05-05T21:39:02.112Z [my-app] info: Server is listening on port: 5000
+2024-05-05T21:39:03.354Z [my-app] info: Connected to MongoDB..
+2024-05-05T21:39:27.204Z [my-app] info: Server is listening on port: 5000
+2024-05-05T21:39:27.445Z [my-app] info: Connected to MongoDB..
+2024-05-05T21:40:59.297Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:40:59.298Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:40:59.299Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:40:59.299Z [my-app] warn: requireAuth: Token not found
+2024-05-05T21:41:00.065Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:41:00.066Z [my-app] warn: checkUser: Token not found
+2024-05-05T21:41:39.216Z [my-app] info: Server is listening on port: 5000
+2024-05-05T21:41:39.450Z [my-app] info: Connected to MongoDB..
+2024-05-05T21:41:42.810Z [my-app] warn: checkUser: Token not found
+2024-05-06T07:13:54.470Z [my-app] info: Server is listening on port: 5000
+2024-05-06T07:13:55.267Z [my-app] info: Connected to MongoDB..
+2024-05-06T07:14:25.275Z [my-app] warn: checkUser: Token not found
+2024-05-06T07:14:25.276Z [my-app] warn: requireAuth: Token not found
+2024-05-06T07:14:25.278Z [my-app] warn: checkUser: Token not found
+2024-05-06T07:14:25.279Z [my-app] warn: requireAuth: Token not found
+2024-05-06T07:14:26.392Z [my-app] warn: checkUser: Token not found
+2024-05-06T07:14:26.393Z [my-app] warn: checkUser: Token not found
+2024-05-06T07:14:29.122Z [my-app] warn: checkUser: Token not found
+2024-05-06T07:14:29.123Z [my-app] warn: requireAuth: Token not found
+2024-05-06T07:14:29.126Z [my-app] warn: checkUser: Token not found
+2024-05-06T07:14:29.126Z [my-app] warn: requireAuth: Token not found
+2024-05-06T07:29:42.779Z [my-app] warn: checkUser: Token not found
+2024-05-06T07:29:42.782Z [my-app] warn: checkUser: Token not found
+2024-05-06T07:29:51.449Z [my-app] warn: checkUser: Token not found
+2024-05-06T07:30:27.649Z [my-app] info: Server is listening on port: 5000
+2024-05-06T07:30:28.336Z [my-app] info: Connected to MongoDB..
+2024-05-06T07:31:02.163Z [my-app] warn: checkUser: Token not found
+2024-05-06T07:31:02.167Z [my-app] warn: checkUser: Token not found
+2024-05-06T07:31:09.376Z [my-app] warn: checkUser: Token not found
+2024-05-06T08:00:17.600Z [my-app] warn: checkUser: Token not found
+2024-05-06T08:00:17.601Z [my-app] warn: requireAuth: Token not found
+2024-05-06T08:00:17.602Z [my-app] warn: checkUser: Token not found
+2024-05-06T08:00:17.602Z [my-app] warn: requireAuth: Token not found
+2024-05-06T08:01:22.361Z [my-app] warn: checkUser: Token not found
+2024-05-06T08:02:46.388Z [my-app] warn: checkUser: Token not found
+2024-05-06T08:08:51.220Z [my-app] info: Server is listening on port: 5000
+2024-05-06T08:08:51.928Z [my-app] info: Connected to MongoDB..
+2024-05-06T08:15:36.564Z [my-app] info: Server is listening on port: 5000
+2024-05-06T08:15:37.324Z [my-app] info: Connected to MongoDB..
+2024-05-06T08:15:49.044Z [my-app] info: Server is listening on port: 5000
+2024-05-06T08:15:49.768Z [my-app] info: Connected to MongoDB..
+2024-05-07T10:30:04.338Z [my-app] info: Server is listening on port: 5000
+2024-05-07T10:30:05.258Z [my-app] info: Connected to MongoDB..
+2024-05-07T10:35:26.674Z [my-app] info: Server is listening on port: 5000
+2024-05-07T10:35:27.466Z [my-app] info: Connected to MongoDB..
+2024-05-07T10:35:28.913Z [my-app] info: Server is listening on port: 5000
+2024-05-07T10:35:29.371Z [my-app] info: Connected to MongoDB..
+2024-05-07T10:38:59.270Z [my-app] info: Server is listening on port: 5000
+2024-05-07T10:38:59.987Z [my-app] info: Connected to MongoDB..
+2024-05-07T11:01:37.961Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:03:57.474Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:03:57.474Z [my-app] warn: requireAuth: Token not found
+2024-05-07T11:03:57.476Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:03:57.476Z [my-app] warn: requireAuth: Token not found
+2024-05-07T11:04:10.904Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:04:14.514Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:04:14.518Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:04:35.300Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:04:49.908Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:04:49.909Z [my-app] warn: requireAuth: Token not found
+2024-05-07T11:04:49.910Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:04:49.913Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:04:49.914Z [my-app] warn: requireAuth: Token not found
+2024-05-07T11:04:49.915Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:04:53.482Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:04:53.483Z [my-app] warn: requireAuth: Token not found
+2024-05-07T11:04:53.484Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:04:53.484Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:04:53.485Z [my-app] warn: requireAuth: Token not found
+2024-05-07T11:04:53.496Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:05:35.994Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:05:45.484Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:05:45.522Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:05:49.492Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:06:43.200Z [my-app] info: Server is listening on port: 5000
+2024-05-07T11:06:43.941Z [my-app] info: Connected to MongoDB..
+2024-05-07T11:07:07.804Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:16:32.334Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:16:32.336Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:16:32.337Z [my-app] warn: requireAuth: Token not found
+2024-05-07T11:16:32.337Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:16:32.338Z [my-app] warn: requireAuth: Token not found
+2024-05-07T11:16:32.338Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:17:49.174Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:20:38.728Z [my-app] info: Server is listening on port: 5000
+2024-05-07T11:20:39.334Z [my-app] info: Connected to MongoDB..
+2024-05-07T11:20:41.478Z [my-app] info: Server is listening on port: 5000
+2024-05-07T11:20:41.945Z [my-app] info: Connected to MongoDB..
+2024-05-07T11:21:04.173Z [my-app] info: Server is listening on port: 5000
+2024-05-07T11:21:04.619Z [my-app] info: Connected to MongoDB..
+2024-05-07T11:21:10.894Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:21:10.899Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:21:52.603Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:23:01.503Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:23:01.503Z [my-app] warn: requireAuth: Token not found
+2024-05-07T11:23:01.504Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:23:01.504Z [my-app] warn: requireAuth: Token not found
+2024-05-07T11:23:15.862Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:24:00.887Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:24:26.870Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:25:28.395Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:26:44.501Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:40:53.309Z [my-app] info: Server is listening on port: 5000
+2024-05-07T11:40:54.269Z [my-app] info: Connected to MongoDB..
+2024-05-07T11:41:24.066Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:41:24.067Z [my-app] warn: requireAuth: Token not found
+2024-05-07T11:41:24.068Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:41:24.069Z [my-app] warn: requireAuth: Token not found
+2024-05-07T11:41:45.964Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:44:26.053Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:44:26.054Z [my-app] warn: requireAuth: Token not found
+2024-05-07T11:44:26.061Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:44:26.061Z [my-app] warn: requireAuth: Token not found
+2024-05-07T11:44:37.786Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:45:56.075Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:46:06.331Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:46:06.331Z [my-app] warn: requireAuth: Token not found
+2024-05-07T11:46:06.332Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:46:06.332Z [my-app] warn: requireAuth: Token not found
+2024-05-07T11:46:35.591Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:46:35.591Z [my-app] warn: requireAuth: Token not found
+2024-05-07T11:46:35.592Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:46:35.592Z [my-app] warn: requireAuth: Token not found
+2024-05-07T11:46:46.876Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:50:53.483Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:52:29.511Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:52:29.511Z [my-app] warn: requireAuth: Token not found
+2024-05-07T11:52:29.512Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:52:29.512Z [my-app] warn: requireAuth: Token not found
+2024-05-07T11:52:41.577Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:53:15.752Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:53:45.856Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:53:45.857Z [my-app] warn: requireAuth: Token not found
+2024-05-07T11:53:45.857Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:53:45.857Z [my-app] warn: requireAuth: Token not found
+2024-05-07T11:54:30.617Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:54:30.617Z [my-app] warn: requireAuth: Token not found
+2024-05-07T11:55:09.823Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:55:09.824Z [my-app] warn: requireAuth: Token not found
+2024-05-07T11:55:09.826Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:55:09.826Z [my-app] warn: requireAuth: Token not found
+2024-05-07T11:55:15.004Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:55:15.004Z [my-app] warn: requireAuth: Token not found
+2024-05-07T11:55:15.005Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:55:15.005Z [my-app] warn: requireAuth: Token not found
+2024-05-07T11:55:28.671Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:55:28.671Z [my-app] warn: requireAuth: Token not found
+2024-05-07T11:55:29.333Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:55:29.334Z [my-app] warn: requireAuth: Token not found
+2024-05-07T11:56:07.453Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:56:07.453Z [my-app] warn: requireAuth: Token not found
+2024-05-07T11:56:07.454Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:56:07.454Z [my-app] warn: requireAuth: Token not found
+2024-05-07T11:58:58.049Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:58:58.049Z [my-app] warn: requireAuth: Token not found
+2024-05-07T11:59:03.433Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:59:03.434Z [my-app] warn: requireAuth: Token not found
+2024-05-07T11:59:03.434Z [my-app] warn: checkUser: Token not found
+2024-05-07T11:59:03.434Z [my-app] warn: requireAuth: Token not found
+2024-05-07T12:11:21.622Z [my-app] warn: checkUser: Token not found
+2024-05-07T12:12:45.007Z [my-app] warn: checkUser: Token not found
+2024-05-07T12:12:45.007Z [my-app] warn: requireAuth: Token not found
+2024-05-07T12:12:45.008Z [my-app] warn: checkUser: Token not found
+2024-05-07T12:12:45.008Z [my-app] warn: requireAuth: Token not found
+2024-05-07T12:12:56.545Z [my-app] warn: checkUser: Token not found
+2024-05-07T12:20:21.409Z [my-app] warn: checkUser: Token not found
+2024-05-07T12:20:21.409Z [my-app] warn: requireAuth: Token not found
+2024-05-07T12:20:21.410Z [my-app] warn: checkUser: Token not found
+2024-05-07T12:20:21.410Z [my-app] warn: requireAuth: Token not found
+2024-05-07T12:20:46.077Z [my-app] warn: checkUser: Token not found
+2024-05-07T12:24:42.734Z [my-app] warn: checkUser: Token not found
+2024-05-07T12:29:19.513Z [my-app] warn: checkUser: Token not found
+2024-05-07T12:29:55.138Z [my-app] warn: checkUser: Token not found
+2024-05-07T12:29:55.138Z [my-app] warn: requireAuth: Token not found
+2024-05-07T12:29:55.139Z [my-app] warn: checkUser: Token not found
+2024-05-07T12:29:55.139Z [my-app] warn: requireAuth: Token not found
+2024-05-07T12:29:57.360Z [my-app] warn: checkUser: Token not found
+2024-05-07T12:29:57.360Z [my-app] warn: requireAuth: Token not found
+2024-05-07T12:29:57.360Z [my-app] warn: checkUser: Token not found
+2024-05-07T12:29:57.360Z [my-app] warn: requireAuth: Token not found
+2024-05-07T12:30:07.639Z [my-app] warn: checkUser: Token not found
+2024-05-07T15:34:54.475Z [my-app] info: Server is listening on port: 5000
+2024-05-07T15:34:55.123Z [my-app] info: Connected to MongoDB..
+2024-05-07T15:35:41.182Z [my-app] info: Server is listening on port: 5000
+2024-05-07T15:35:41.630Z [my-app] info: Connected to MongoDB..
+2024-05-07T15:36:47.430Z [my-app] info: Server is listening on port: 5000
+2024-05-07T15:36:48.029Z [my-app] info: Connected to MongoDB..
+2024-05-07T15:38:31.996Z [my-app] info: Server is listening on port: 5000
+2024-05-07T15:38:32.624Z [my-app] info: Connected to MongoDB..
+2024-05-07T15:40:14.658Z [my-app] info: Server is listening on port: 5000
+2024-05-07T15:40:15.199Z [my-app] info: Connected to MongoDB..
+2024-05-07T15:40:18.440Z [my-app] info: Server is listening on port: 5000
+2024-05-07T15:40:18.875Z [my-app] info: Connected to MongoDB..
+2024-05-07T15:40:21.853Z [my-app] info: Server is listening on port: 5000
+2024-05-07T15:40:22.288Z [my-app] info: Connected to MongoDB..
+2024-05-07T15:40:39.973Z [my-app] info: Server is listening on port: 5000
+2024-05-07T15:40:40.401Z [my-app] info: Connected to MongoDB..
+2024-05-07T15:40:44.177Z [my-app] info: Server is listening on port: 5000
+2024-05-07T15:40:44.580Z [my-app] info: Connected to MongoDB..
+2024-05-07T15:40:45.278Z [my-app] info: Server is listening on port: 5000
+2024-05-07T15:40:45.723Z [my-app] info: Connected to MongoDB..
+2024-05-07T15:40:50.948Z [my-app] info: Server is listening on port: 5000
+2024-05-07T15:40:51.379Z [my-app] info: Connected to MongoDB..
+2024-05-07T15:41:24.096Z [my-app] info: Server is listening on port: 5000
+2024-05-07T15:41:24.725Z [my-app] info: Connected to MongoDB..
+2024-05-07T15:42:18.887Z [my-app] info: Server is listening on port: 5000
+2024-05-07T15:42:19.293Z [my-app] info: Connected to MongoDB..
+2024-05-07T15:42:20.351Z [my-app] info: Server is listening on port: 5000
+2024-05-07T15:42:20.756Z [my-app] info: Connected to MongoDB..
+2024-05-07T15:42:26.872Z [my-app] info: Server is listening on port: 5000
+2024-05-07T15:42:27.466Z [my-app] info: Connected to MongoDB..
+2024-05-07T15:42:29.362Z [my-app] info: Server is listening on port: 5000
+2024-05-07T15:42:29.793Z [my-app] info: Connected to MongoDB..
+2024-05-07T15:42:42.615Z [my-app] info: Server is listening on port: 5000
+2024-05-07T15:42:43.059Z [my-app] info: Connected to MongoDB..
+2024-05-07T15:46:44.772Z [my-app] warn: checkUser: Token not found
+2024-05-07T15:46:44.773Z [my-app] warn: requireAuth: Token not found
+2024-05-07T15:50:23.186Z [my-app] warn: checkUser: Token not found
+2024-05-07T15:50:23.187Z [my-app] warn: requireAuth: Token not found
+2024-05-07T15:51:29.249Z [my-app] warn: checkUser: Token not found
+2024-05-07T15:51:29.249Z [my-app] warn: requireAuth: Token not found
+2024-05-07T15:51:31.306Z [my-app] warn: checkUser: Token not found
+2024-05-07T15:51:31.307Z [my-app] warn: requireAuth: Token not found
+2024-05-07T15:51:38.091Z [my-app] warn: checkUser: Token not found
+2024-05-07T15:51:38.091Z [my-app] warn: requireAuth: Token not found
+2024-05-07T15:51:41.113Z [my-app] warn: checkUser: Token not found
+2024-05-07T15:51:41.113Z [my-app] warn: requireAuth: Token not found
+2024-05-07T15:51:46.212Z [my-app] warn: checkUser: Token not found
+2024-05-07T15:51:46.212Z [my-app] warn: requireAuth: Token not found
+2024-05-07T15:51:59.397Z [my-app] warn: checkUser: Token not found
+2024-05-07T15:51:59.397Z [my-app] warn: requireAuth: Token not found
+2024-05-07T15:52:14.820Z [my-app] warn: checkUser: Token not found
+2024-05-07T15:52:14.820Z [my-app] warn: requireAuth: Token not found
+2024-05-07T15:52:19.443Z [my-app] warn: checkUser: Token not found
+2024-05-07T15:52:19.443Z [my-app] warn: requireAuth: Token not found
+2024-05-07T15:52:39.025Z [my-app] warn: checkUser: Token not found
+2024-05-07T15:52:39.025Z [my-app] warn: requireAuth: Token not found
+2024-05-07T15:52:39.834Z [my-app] warn: checkUser: Token not found
+2024-05-07T15:52:39.834Z [my-app] warn: requireAuth: Token not found
+2024-05-07T15:52:43.531Z [my-app] warn: checkUser: Token not found
+2024-05-07T15:52:43.531Z [my-app] warn: requireAuth: Token not found
+2024-05-07T15:53:19.243Z [my-app] warn: checkUser: Token not found
+2024-05-07T15:53:19.243Z [my-app] warn: requireAuth: Token not found
+2024-05-07T15:53:31.380Z [my-app] warn: checkUser: Token not found
+2024-05-07T15:53:31.380Z [my-app] warn: requireAuth: Token not found
+2024-05-07T15:53:33.408Z [my-app] warn: checkUser: Token not found
+2024-05-07T15:53:33.409Z [my-app] warn: requireAuth: Token not found
+2024-05-07T15:53:38.208Z [my-app] warn: checkUser: Token not found
+2024-05-07T15:53:38.209Z [my-app] warn: requireAuth: Token not found
+2024-05-07T15:53:46.329Z [my-app] warn: checkUser: Token not found
+2024-05-07T15:53:46.329Z [my-app] warn: requireAuth: Token not found
+2024-05-07T15:53:51.728Z [my-app] warn: checkUser: Token not found
+2024-05-07T15:53:51.728Z [my-app] warn: requireAuth: Token not found
+2024-05-07T15:53:59.065Z [my-app] warn: checkUser: Token not found
+2024-05-07T15:53:59.065Z [my-app] warn: requireAuth: Token not found
+2024-05-07T15:54:01.586Z [my-app] warn: checkUser: Token not found
+2024-05-07T15:54:01.587Z [my-app] warn: requireAuth: Token not found
+2024-05-07T15:54:35.113Z [my-app] warn: checkUser: Token not found
+2024-05-07T15:54:35.113Z [my-app] warn: requireAuth: Token not found
+2024-05-07T15:55:47.040Z [my-app] warn: checkUser: Token not found
+2024-05-07T15:55:47.040Z [my-app] warn: requireAuth: Token not found
+2024-05-07T15:55:50.873Z [my-app] warn: checkUser: Token not found
+2024-05-07T15:55:50.873Z [my-app] warn: requireAuth: Token not found
+2024-05-07T15:55:51.996Z [my-app] warn: checkUser: Token not found
+2024-05-07T15:55:51.996Z [my-app] warn: requireAuth: Token not found
+2024-05-07T15:56:12.961Z [my-app] warn: checkUser: Token not found
+2024-05-07T15:56:12.961Z [my-app] warn: requireAuth: Token not found
+2024-05-07T15:56:16.949Z [my-app] warn: checkUser: Token not found
+2024-05-07T15:56:16.949Z [my-app] warn: requireAuth: Token not found
+2024-05-07T15:56:19.802Z [my-app] warn: checkUser: Token not found
+2024-05-07T15:56:19.803Z [my-app] warn: requireAuth: Token not found
+2024-05-07T16:10:11.577Z [my-app] info: Server is listening on port: 5000
+2024-05-07T16:10:12.171Z [my-app] info: Connected to MongoDB..
+2024-05-07T16:17:35.809Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:17:35.809Z [my-app] warn: requireAuth: Token not found
+2024-05-07T16:17:39.291Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:17:39.291Z [my-app] warn: requireAuth: Token not found
+2024-05-07T16:17:55.757Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:17:55.757Z [my-app] warn: requireAuth: Token not found
+2024-05-07T16:17:59.654Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:17:59.654Z [my-app] warn: requireAuth: Token not found
+2024-05-07T16:18:04.801Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:18:04.801Z [my-app] warn: requireAuth: Token not found
+2024-05-07T16:18:07.789Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:18:07.789Z [my-app] warn: requireAuth: Token not found
+2024-05-07T16:18:25.967Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:18:25.968Z [my-app] warn: requireAuth: Token not found
+2024-05-07T16:18:30.090Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:18:30.090Z [my-app] warn: requireAuth: Token not found
+2024-05-07T16:19:07.394Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:19:07.394Z [my-app] warn: requireAuth: Token not found
+2024-05-07T16:19:19.595Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:19:19.596Z [my-app] warn: requireAuth: Token not found
+2024-05-07T16:19:20.664Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:19:20.664Z [my-app] warn: requireAuth: Token not found
+2024-05-07T16:19:41.948Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:19:41.948Z [my-app] warn: requireAuth: Token not found
+2024-05-07T16:24:33.180Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:24:33.180Z [my-app] warn: requireAuth: Token not found
+2024-05-07T16:24:42.419Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:24:42.419Z [my-app] warn: requireAuth: Token not found
+2024-05-07T16:24:44.658Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:24:44.658Z [my-app] warn: requireAuth: Token not found
+2024-05-07T16:24:45.770Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:24:45.770Z [my-app] warn: requireAuth: Token not found
+2024-05-07T16:28:01.662Z [my-app] info: Server is listening on port: 5000
+2024-05-07T16:28:02.319Z [my-app] info: Connected to MongoDB..
+2024-05-07T16:28:03.246Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:28:04.121Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:30:36.225Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:30:37.603Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:31:14.529Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:31:20.547Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:31:25.910Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:31:29.540Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:31:32.409Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:32:12.212Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:32:17.432Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:32:23.208Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:32:45.726Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:33:20.094Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:33:55.481Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:34:05.690Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:34:05.692Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:34:12.003Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:34:35.784Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:34:43.381Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:34:50.816Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:34:59.271Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:35:00.196Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:35:22.305Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:35:31.246Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:35:44.587Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:35:51.174Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:35:53.447Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:35:55.569Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:36:14.116Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:36:16.798Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:36:21.356Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:36:34.811Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:36:40.310Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:36:51.865Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:37:10.886Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:37:13.656Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:37:38.709Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:37:58.359Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:38:13.705Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:38:17.989Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:38:28.657Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:38:36.115Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:38:36.831Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:39:00.111Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:39:01.722Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:40:18.932Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:40:31.152Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:40:34.819Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:40:47.843Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:40:50.516Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:40:53.594Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:41:01.975Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:41:08.999Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:41:11.873Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:41:14.061Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:41:19.206Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:41:44.738Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:41:48.752Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:41:55.797Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:42:06.895Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:42:26.146Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:43:18.535Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:43:21.134Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:43:24.103Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:43:27.504Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:43:37.089Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:43:40.529Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:43:48.316Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:43:51.648Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:43:52.736Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:44:53.194Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:45:31.772Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:45:39.802Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:45:52.317Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:46:14.917Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:46:21.078Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:46:25.987Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:46:59.176Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:46:59.821Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:47:06.774Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:47:11.323Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:47:20.244Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:47:22.835Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:47:25.379Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:47:26.041Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:48:02.182Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:48:16.780Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:48:26.200Z [my-app] warn: checkUser: Token not found
+2024-05-07T16:48:29.213Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:18:25.759Z [my-app] info: Server is listening on port: 5000
+2024-05-07T17:18:26.388Z [my-app] info: Connected to MongoDB..
+2024-05-07T17:18:45.668Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:18:49.818Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:22:13.967Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:23:18.357Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:25:32.087Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:26:08.568Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:26:19.897Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:27:30.964Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:40:45.943Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:41:40.345Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:41:40.773Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:42:30.126Z [my-app] info: Server is listening on port: 5000
+2024-05-07T17:42:30.773Z [my-app] info: Connected to MongoDB..
+2024-05-07T17:42:32.576Z [my-app] info: Server is listening on port: 5000
+2024-05-07T17:42:33.008Z [my-app] info: Connected to MongoDB..
+2024-05-07T17:42:37.085Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:42:57.780Z [my-app] info: Server is listening on port: 5000
+2024-05-07T17:42:58.188Z [my-app] info: Connected to MongoDB..
+2024-05-07T17:42:59.864Z [my-app] info: Server is listening on port: 5000
+2024-05-07T17:43:00.313Z [my-app] info: Connected to MongoDB..
+2024-05-07T17:43:08.287Z [my-app] info: Server is listening on port: 5000
+2024-05-07T17:43:08.728Z [my-app] info: Connected to MongoDB..
+2024-05-07T17:43:15.081Z [my-app] info: Server is listening on port: 5000
+2024-05-07T17:43:15.503Z [my-app] info: Connected to MongoDB..
+2024-05-07T17:43:17.638Z [my-app] info: Server is listening on port: 5000
+2024-05-07T17:43:18.084Z [my-app] info: Connected to MongoDB..
+2024-05-07T17:43:31.796Z [my-app] info: Server is listening on port: 5000
+2024-05-07T17:43:32.377Z [my-app] info: Connected to MongoDB..
+2024-05-07T17:43:33.262Z [my-app] info: Server is listening on port: 5000
+2024-05-07T17:43:33.707Z [my-app] info: Connected to MongoDB..
+2024-05-07T17:43:38.238Z [my-app] info: Server is listening on port: 5000
+2024-05-07T17:43:38.672Z [my-app] info: Connected to MongoDB..
+2024-05-07T17:43:39.610Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:43:40.180Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:43:50.048Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:45:16.480Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:45:24.561Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:45:25.511Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:46:42.105Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:47:12.181Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:47:14.979Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:47:41.571Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:47:44.947Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:47:49.105Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:51:12.026Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:51:38.021Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:53:15.525Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:53:16.135Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:53:17.969Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:53:34.719Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:54:01.615Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:54:02.396Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:56:43.616Z [my-app] warn: checkUser: Token not found
+2024-05-07T17:56:48.273Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:04:00.968Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:05:26.911Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:05:27.404Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:05:53.869Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:05:54.497Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:06:44.552Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:07:03.637Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:07:11.733Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:07:47.120Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:07:47.521Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:08:36.157Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:10:44.626Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:11:46.477Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:11:51.925Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:12:23.523Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:13:08.388Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:14:22.936Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:14:22.936Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:14:27.358Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:14:27.358Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:14:30.771Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:14:30.771Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:14:36.573Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:14:36.574Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:14:38.283Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:14:38.283Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:14:43.353Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:14:43.353Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:14:43.621Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:14:43.621Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:14:49.718Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:14:49.718Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:14:52.017Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:14:52.647Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:14:52.648Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:15:00.373Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:15:00.373Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:15:03.654Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:15:03.654Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:15:05.761Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:15:05.761Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:15:23.051Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:15:23.051Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:15:26.779Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:15:26.780Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:15:28.862Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:15:28.862Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:15:30.574Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:15:30.574Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:15:38.057Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:15:38.057Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:15:41.600Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:15:42.633Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:15:42.633Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:15:44.603Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:15:44.604Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:17:18.452Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:17:18.452Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:17:34.623Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:17:37.035Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:17:56.079Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:17:56.079Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:17:57.634Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:17:57.634Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:18:13.870Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:18:13.870Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:19:33.965Z [my-app] info: Server is listening on port: 5000
+2024-05-07T18:19:34.590Z [my-app] info: Connected to MongoDB..
+2024-05-07T18:19:41.919Z [my-app] info: Server is listening on port: 5000
+2024-05-07T18:19:42.362Z [my-app] info: Connected to MongoDB..
+2024-05-07T18:19:50.388Z [my-app] info: Server is listening on port: 5000
+2024-05-07T18:19:50.830Z [my-app] info: Connected to MongoDB..
+2024-05-07T18:19:53.496Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:19:53.497Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:22:41.164Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:22:44.129Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:22:44.130Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:22:54.347Z [my-app] info: Server is listening on port: 5000
+2024-05-07T18:22:54.916Z [my-app] info: Connected to MongoDB..
+2024-05-07T18:22:56.802Z [my-app] info: Server is listening on port: 5000
+2024-05-07T18:22:57.232Z [my-app] info: Connected to MongoDB..
+2024-05-07T18:22:59.584Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:22:59.584Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:23:02.491Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:23:02.492Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:23:19.693Z [my-app] info: Server is listening on port: 5000
+2024-05-07T18:23:20.097Z [my-app] info: Connected to MongoDB..
+2024-05-07T18:23:21.711Z [my-app] info: Server is listening on port: 5000
+2024-05-07T18:23:22.150Z [my-app] info: Connected to MongoDB..
+2024-05-07T18:23:22.964Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:23:22.965Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:23:48.511Z [my-app] info: Server is listening on port: 5000
+2024-05-07T18:23:48.917Z [my-app] info: Connected to MongoDB..
+2024-05-07T18:23:49.966Z [my-app] info: Server is listening on port: 5000
+2024-05-07T18:23:50.396Z [my-app] info: Connected to MongoDB..
+2024-05-07T18:23:52.855Z [my-app] info: Server is listening on port: 5000
+2024-05-07T18:23:53.283Z [my-app] info: Connected to MongoDB..
+2024-05-07T18:24:12.268Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:24:21.592Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:24:21.595Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:24:38.809Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:24:38.817Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:24:38.818Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:24:47.413Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:25:10.290Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:25:49.055Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:39:28.155Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:40:31.742Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:40:43.954Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:40:44.062Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:40:45.699Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:40:45.699Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:41:40.583Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:41:40.583Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:41:47.410Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:43:06.402Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:43:06.495Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:43:16.950Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:43:17.067Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:43:17.067Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:44:05.249Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:44:11.621Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:44:15.214Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:44:17.580Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:44:27.630Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:46:14.887Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:47:02.120Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:48:31.288Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:48:34.249Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:49:25.352Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:49:30.479Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:49:37.488Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:49:44.037Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:49:51.016Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:50:09.539Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:50:17.905Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:50:25.892Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:50:30.891Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:50:33.902Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:50:36.898Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:50:39.905Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:50:58.665Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:50:59.086Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:51:01.732Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:51:02.360Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:51:02.360Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:51:48.821Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:51:55.323Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:52:03.668Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:52:03.758Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:52:28.272Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:53:02.476Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:53:09.004Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:53:50.399Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:53:54.716Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:53:57.590Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:53:57.590Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:54:15.212Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:54:15.212Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:54:37.569Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:54:37.569Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:54:42.557Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:54:42.557Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:55:29.591Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:55:32.558Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:55:32.558Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:56:03.729Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:56:12.771Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:56:12.873Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:56:12.873Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:56:25.848Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:56:31.504Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:56:42.369Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:56:42.469Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:56:45.045Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:56:45.045Z [my-app] warn: requireAuth: Token not found
+2024-05-07T18:57:37.044Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:57:42.639Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:57:57.653Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:57:57.740Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:58:08.214Z [my-app] warn: checkUser: Token not found
+2024-05-07T18:58:08.214Z [my-app] warn: requireAuth: Token not found
+2024-05-07T19:04:02.993Z [my-app] warn: checkUser: Token not found
+2024-05-07T19:04:35.726Z [my-app] warn: checkUser: Token not found
+2024-05-07T19:04:39.330Z [my-app] warn: checkUser: Token not found
+2024-05-07T19:04:50.927Z [my-app] warn: checkUser: Token not found
+2024-05-07T19:04:51.019Z [my-app] warn: checkUser: Token not found
+2024-05-07T19:05:28.271Z [my-app] warn: checkUser: Token not found
+2024-05-07T19:06:36.647Z [my-app] warn: checkUser: Token not found
+2024-05-07T19:06:55.642Z [my-app] warn: checkUser: Token not found
+2024-05-07T19:07:10.175Z [my-app] warn: checkUser: Token not found
+2024-05-07T19:07:39.302Z [my-app] warn: checkUser: Token not found
+2024-05-07T19:07:57.468Z [my-app] warn: checkUser: Token not found
+2024-05-07T19:07:57.559Z [my-app] warn: checkUser: Token not found
+2024-05-07T19:08:24.449Z [my-app] warn: checkUser: Token not found
+2024-05-07T19:08:28.311Z [my-app] warn: checkUser: Token not found
+2024-05-07T19:08:31.066Z [my-app] warn: checkUser: Token not found
+2024-05-07T19:08:43.589Z [my-app] warn: checkUser: Token not found
+2024-05-07T19:08:46.893Z [my-app] warn: checkUser: Token not found
+2024-05-07T19:09:33.193Z [my-app] warn: checkUser: Token not found
+2024-05-07T19:09:33.193Z [my-app] warn: requireAuth: Token not found
+2024-05-07T19:09:36.108Z [my-app] warn: checkUser: Token not found
+2024-05-07T19:09:38.332Z [my-app] warn: checkUser: Token not found
+2024-05-07T19:09:38.333Z [my-app] warn: requireAuth: Token not found
+2024-05-07T19:10:06.654Z [my-app] info: Server is listening on port: 5000
+2024-05-07T19:10:07.390Z [my-app] info: Connected to MongoDB..
+2024-05-07T19:10:10.682Z [my-app] info: Server is listening on port: 5000
+2024-05-07T19:10:11.127Z [my-app] info: Connected to MongoDB..
+2024-05-07T19:10:13.714Z [my-app] warn: checkUser: Token not found
+2024-05-07T19:10:13.715Z [my-app] warn: requireAuth: Token not found
+2024-05-07T19:10:48.786Z [my-app] warn: checkUser: Token not found
+2024-05-07T19:10:48.786Z [my-app] warn: requireAuth: Token not found
+2024-05-07T19:14:00.300Z [my-app] warn: checkUser: Token not found
+2024-05-07T19:14:15.946Z [my-app] warn: checkUser: Token not found
+2024-05-07T19:14:44.746Z [my-app] warn: checkUser: Token not found
+2024-05-07T19:14:49.971Z [my-app] warn: checkUser: Token not found
+2024-05-07T19:14:58.730Z [my-app] warn: checkUser: Token not found
+2024-05-07T19:14:58.821Z [my-app] warn: checkUser: Token not found
+2024-05-07T19:15:07.573Z [my-app] warn: checkUser: Token not found
+2024-05-07T19:15:09.886Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:04:21.876Z [my-app] info: Server is listening on port: 5000
+2024-05-08T01:04:23.746Z [my-app] info: Connected to MongoDB..
+2024-05-08T01:04:33.100Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:05:17.393Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:05:23.861Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:05:25.496Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:06:44.533Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:06:52.505Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:06:55.595Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:06:58.507Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:07:13.627Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:07:17.045Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:07:30.917Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:07:37.881Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:07:40.057Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:07:50.555Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:07:53.513Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:08:27.063Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:08:43.201Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:08:46.628Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:09:13.755Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:09:16.479Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:09:21.282Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:09:24.455Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:09:40.182Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:09:40.412Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:09:48.923Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:10:15.335Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:10:19.459Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:10:33.189Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:11:13.175Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:11:15.418Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:11:29.740Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:11:43.768Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:11:47.839Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:11:48.536Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:11:52.237Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:11:57.965Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:11:59.314Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:12:02.619Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:12:15.809Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:12:16.105Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:12:25.942Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:12:28.849Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:19:50.663Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:20:11.997Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:20:20.633Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:20:39.710Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:24:06.049Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:24:27.194Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:25:08.430Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:25:11.937Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:25:14.064Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:25:39.046Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:25:41.725Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:25:46.894Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:25:48.303Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:26:10.416Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:26:16.260Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:27:57.494Z [my-app] info: Server is listening on port: 5000
+2024-05-08T01:27:58.661Z [my-app] info: Connected to MongoDB..
+2024-05-08T01:28:00.038Z [my-app] info: Server is listening on port: 5000
+2024-05-08T01:28:00.764Z [my-app] error: connect ETIMEDOUT 122.248.219.198:27017, connect ENETUNREACH 64:ff9b::7af8:dbc6:27017 - Local (:::0)
+2024-05-08T01:28:07.214Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:28:36.150Z [my-app] info: Server is listening on port: 5000
+2024-05-08T01:28:36.736Z [my-app] warn: checkUser: Token not found
+2024-05-08T01:28:43.565Z [my-app] info: Connected to MongoDB..
+2024-05-08T01:28:57.258Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:02:44.142Z [my-app] info: Server is listening on port: 5000
+2024-05-10T01:02:44.950Z [my-app] info: Connected to MongoDB..
+2024-05-10T01:02:57.006Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:03:05.127Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:03:07.365Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:03:16.866Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:03:26.880Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:03:26.997Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:03:38.885Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:05:40.471Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:05:45.399Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:05:47.830Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:06:15.309Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:10:36.936Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:11:18.806Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:11:31.565Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:11:43.386Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:11:43.493Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:11:56.801Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:12:40.529Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:12:42.907Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:12:46.050Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:13:27.555Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:13:28.713Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:13:34.971Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:13:46.527Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:13:52.172Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:19:50.271Z [my-app] info: Server is listening on port: 5000
+2024-05-10T01:19:51.124Z [my-app] info: Connected to MongoDB..
+2024-05-10T01:33:04.564Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:33:10.945Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:33:18.303Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:33:54.833Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:34:01.657Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:34:01.761Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:34:42.931Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:34:50.087Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:34:50.194Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:35:23.511Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:36:37.480Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:36:51.431Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:37:12.312Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:39:09.625Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:41:13.077Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:41:22.388Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:41:22.520Z [my-app] warn: checkUser: Token not found
+2024-05-10T01:44:30.103Z [my-app] info: Server is listening on port: 5000
+2024-05-10T01:44:30.937Z [my-app] info: Connected to MongoDB..
+2024-05-10T01:46:52.829Z [my-app] info: Server is listening on port: 5000
+2024-05-10T01:46:54.065Z [my-app] info: Server is listening on port: 5000
+2024-05-10T01:46:57.410Z [my-app] info: Server is listening on port: 5000
+2024-05-10T01:46:58.010Z [my-app] info: Connected to MongoDB..
+2024-05-10T01:49:56.818Z [my-app] info: Server is listening on port: 5000
+2024-05-10T01:49:57.649Z [my-app] info: Connected to MongoDB..
+2024-05-10T01:50:18.993Z [my-app] info: Server is listening on port: 5000
+2024-05-10T01:50:19.533Z [my-app] info: Connected to MongoDB..
+2024-05-10T01:50:22.044Z [my-app] info: Server is listening on port: 5000
+2024-05-10T01:50:22.620Z [my-app] info: Connected to MongoDB..
+2024-05-10T01:51:03.822Z [my-app] info: Server is listening on port: 5000
+2024-05-10T01:51:04.532Z [my-app] info: Connected to MongoDB..
+2024-05-10T01:58:28.937Z [my-app] info: Server is listening on port: 5000
+2024-05-10T01:58:29.789Z [my-app] info: Connected to MongoDB..
+2024-05-10T02:03:22.268Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:03:28.635Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:06:48.141Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:06:48.282Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:06:53.744Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:11:54.911Z [my-app] info: Server is listening on port: 5000
+2024-05-10T02:11:55.738Z [my-app] info: Connected to MongoDB..
+2024-05-10T02:11:58.140Z [my-app] info: Server is listening on port: 5000
+2024-05-10T02:11:58.641Z [my-app] info: Connected to MongoDB..
+2024-05-10T02:12:05.190Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:40:32.063Z [my-app] info: Server is listening on port: 5000
+2024-05-10T02:40:32.847Z [my-app] info: Connected to MongoDB..
+2024-05-10T02:40:37.086Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:40:37.428Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:40:40.575Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:41:16.020Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:41:18.572Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:41:20.358Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:41:55.615Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:42:03.836Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:42:48.225Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:42:53.030Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:43:01.108Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:43:08.504Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:43:08.647Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:43:59.538Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:49:58.559Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:50:12.669Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:50:12.721Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:50:12.721Z [my-app] warn: requireAuth: Token not found
+2024-05-10T02:50:22.130Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:50:29.555Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:50:35.842Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:50:41.161Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:50:41.293Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:52:27.200Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:52:32.675Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:52:38.680Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:52:43.470Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:52:43.602Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:52:53.983Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:54:17.374Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:54:23.252Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:54:29.871Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:54:30.010Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:55:43.483Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:55:46.067Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:57:02.345Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:57:21.851Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:57:27.495Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:57:32.277Z [my-app] warn: checkUser: Token not found
+2024-05-10T02:57:32.414Z [my-app] warn: checkUser: Token not found
+2024-05-10T03:00:23.283Z [my-app] warn: checkUser: Token not found
+2024-05-10T03:01:32.081Z [my-app] warn: checkUser: Token not found
+2024-05-10T03:02:38.209Z [my-app] warn: checkUser: Token not found
+2024-05-10T03:02:45.124Z [my-app] warn: checkUser: Token not found
+2024-05-10T03:10:47.352Z [my-app] warn: checkUser: Token not found
+2024-05-10T03:12:19.108Z [my-app] warn: checkUser: Token not found
+2024-05-10T03:13:17.390Z [my-app] info: Server is listening on port: 5000
+2024-05-10T03:13:18.198Z [my-app] info: Connected to MongoDB..
+2024-05-10T03:13:21.388Z [my-app] info: Server is listening on port: 5000
+2024-05-10T03:13:21.927Z [my-app] info: Connected to MongoDB..
+2024-05-10T03:13:24.572Z [my-app] warn: checkUser: Token not found
+2024-05-10T03:14:26.932Z [my-app] warn: checkUser: Token not found
+2024-05-10T03:23:14.222Z [my-app] warn: checkUser: Token not found
+2024-05-10T03:23:44.622Z [my-app] warn: checkUser: Token not found
+2024-05-10T12:33:06.720Z [my-app] info: Server is listening on port: 5000
+2024-05-10T12:33:07.587Z [my-app] info: Connected to MongoDB..
+2024-05-10T12:33:20.608Z [my-app] warn: checkUser: Token not found
+2024-05-10T12:33:53.548Z [my-app] warn: checkUser: Token not found
+2024-05-10T12:34:30.731Z [my-app] warn: checkUser: Token not found
+2024-05-10T12:35:45.191Z [my-app] warn: checkUser: Token not found
+2024-05-10T12:56:05.214Z [my-app] warn: checkUser: Token not found
+2024-05-10T12:56:46.281Z [my-app] warn: checkUser: Token not found
+2024-05-10T12:57:02.832Z [my-app] warn: checkUser: Token not found
+2024-05-10T12:57:04.127Z [my-app] warn: checkUser: Token not found
+2024-05-10T12:58:27.843Z [my-app] warn: checkUser: Token not found
+2024-05-10T12:58:28.486Z [my-app] warn: checkUser: Token not found
+2024-05-10T12:59:08.413Z [my-app] warn: checkUser: Token not found
+2024-05-10T12:59:09.115Z [my-app] warn: checkUser: Token not found
+2024-05-10T12:59:11.847Z [my-app] warn: checkUser: Token not found
+2024-05-10T12:59:11.847Z [my-app] warn: requireAuth: Token not found
+2024-05-10T12:59:13.652Z [my-app] warn: checkUser: Token not found
+2024-05-10T12:59:15.633Z [my-app] warn: checkUser: Token not found
+2024-05-10T12:59:18.650Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:00:00.677Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:00:02.574Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:00:12.362Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:04:21.201Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:04:22.643Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:07:58.458Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:08:14.606Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:08:40.301Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:09:14.233Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:09:26.731Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:09:42.506Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:10:11.134Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:11:09.302Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:11:22.573Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:11:48.705Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:12:15.951Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:12:47.558Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:13:20.474Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:14:09.316Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:14:57.815Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:15:04.953Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:15:32.004Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:15:41.352Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:15:50.194Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:16:22.491Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:17:32.258Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:17:37.518Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:17:37.624Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:21:43.833Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:21:47.912Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:21:52.479Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:21:52.567Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:22:05.966Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:23:25.440Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:23:29.881Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:23:32.466Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:23:44.777Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:24:05.733Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:24:11.952Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:26:45.581Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:26:50.002Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:26:52.766Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:27:48.573Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:27:55.725Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:28:27.139Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:28:30.342Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:28:32.638Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:28:50.521Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:29:13.205Z [my-app] info: Server is listening on port: 5000
+2024-05-10T13:29:13.710Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:29:14.385Z [my-app] info: Connected to MongoDB..
+2024-05-10T13:29:30.401Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:29:36.109Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:30:22.914Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:30:37.794Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:30:42.542Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:30:42.665Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:30:48.806Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:30:58.828Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:31:03.610Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:31:13.133Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:31:15.318Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:31:17.496Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:31:25.540Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:32:15.081Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:32:37.794Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:32:49.758Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:32:55.885Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:33:26.386Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:33:40.749Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:33:43.591Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:34:15.682Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:34:23.851Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:34:45.452Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:35:01.922Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:35:06.381Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:35:45.250Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:40:25.065Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:40:42.423Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:40:49.097Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:40:58.477Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:41:05.222Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:41:14.891Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:41:14.986Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:41:32.402Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:41:53.743Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:42:07.751Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:42:29.342Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:42:32.888Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:42:51.177Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:43:07.880Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:43:22.885Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:43:30.968Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:43:47.447Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:44:17.201Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:44:54.091Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:45:45.025Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:50:48.995Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:51:13.074Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:51:14.462Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:51:18.055Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:51:30.609Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:51:35.752Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:51:35.852Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:51:41.559Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:58:23.218Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:58:26.155Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:58:28.266Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:58:41.394Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:58:45.088Z [my-app] warn: checkUser: Token not found
+2024-05-10T13:58:45.088Z [my-app] warn: requireAuth: Token not found
+2024-05-10T13:58:58.418Z [my-app] warn: checkUser: Token not found
+2024-05-10T14:00:56.320Z [my-app] warn: checkUser: Token not found
+2024-05-10T14:00:56.395Z [my-app] warn: checkUser: Token not found
+2024-05-10T14:00:56.395Z [my-app] warn: requireAuth: Token not found
+2024-05-10T14:01:07.919Z [my-app] warn: checkUser: Token not found
+2024-05-10T14:01:09.064Z [my-app] warn: checkUser: Token not found
+2024-05-10T14:01:09.064Z [my-app] warn: requireAuth: Token not found
+2024-05-10T14:01:56.236Z [my-app] warn: checkUser: Token not found
+2024-05-10T14:01:56.236Z [my-app] warn: requireAuth: Token not found
+2024-05-10T14:01:58.461Z [my-app] warn: checkUser: Token not found
+2024-05-10T14:02:00.089Z [my-app] warn: checkUser: Token not found
+2024-05-10T14:02:00.089Z [my-app] warn: requireAuth: Token not found
+2024-05-10T14:02:38.946Z [my-app] warn: checkUser: Token not found
+2024-05-10T14:02:40.429Z [my-app] warn: checkUser: Token not found
+2024-05-10T14:02:40.429Z [my-app] warn: requireAuth: Token not found
+2024-05-10T14:03:00.157Z [my-app] warn: checkUser: Token not found
+2024-05-10T14:03:01.277Z [my-app] warn: checkUser: Token not found
+2024-05-10T14:03:01.278Z [my-app] warn: requireAuth: Token not found
+2024-05-10T14:03:08.123Z [my-app] warn: checkUser: Token not found
+2024-05-10T14:03:09.197Z [my-app] warn: checkUser: Token not found
+2024-05-10T14:03:09.197Z [my-app] warn: requireAuth: Token not found
+2024-05-10T14:03:11.130Z [my-app] warn: checkUser: Token not found
+2024-05-10T14:03:27.334Z [my-app] warn: checkUser: Token not found
+2024-05-10T14:03:34.058Z [my-app] warn: checkUser: Token not found
+2024-05-10T14:03:34.152Z [my-app] warn: checkUser: Token not found
+2024-05-10T14:03:37.156Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:24:55.776Z [my-app] info: Server is listening on port: 5000
+2024-05-11T05:24:56.509Z [my-app] info: Connected to MongoDB..
+2024-05-11T05:25:02.374Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:25:28.420Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:25:32.266Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:25:36.008Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:25:44.972Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:26:02.526Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:26:09.085Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:26:14.441Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:26:48.127Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:26:53.223Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:26:53.846Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:26:54.405Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:26:54.422Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:26:54.424Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:26:58.136Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:27:01.830Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:27:01.831Z [my-app] warn: requireAuth: Token not found
+2024-05-11T05:27:04.362Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:27:06.131Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:27:06.131Z [my-app] warn: requireAuth: Token not found
+2024-05-11T05:27:22.884Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:27:30.923Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:27:31.022Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:27:39.106Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:27:51.204Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:27:55.614Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:27:59.443Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:34:28.947Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:34:31.833Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:35:13.644Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:35:16.747Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:35:19.054Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:35:45.925Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:35:51.921Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:36:01.825Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:36:04.596Z [my-app] warn: checkUser: Token not found
+2024-05-11T05:36:10.651Z [my-app] warn: checkUser: Token not found
+2024-05-11T07:50:29.114Z [my-app] info: Server is listening on port: 5000
+2024-05-11T07:50:29.806Z [my-app] info: Connected to MongoDB..
+2024-05-11T07:50:38.170Z [my-app] warn: checkUser: Token not found
+2024-05-11T07:50:53.083Z [my-app] warn: checkUser: Token not found
+2024-05-11T07:52:04.939Z [my-app] warn: checkUser: Token not found
+2024-05-11T07:52:21.770Z [my-app] warn: checkUser: Token not found
+2024-05-11T07:53:54.956Z [my-app] warn: checkUser: Token not found
+2024-05-11T07:54:01.317Z [my-app] warn: checkUser: Token not found
+2024-05-11T07:54:49.714Z [my-app] warn: checkUser: Token not found
+2024-05-11T07:55:24.674Z [my-app] warn: checkUser: Token not found
+2024-05-11T07:55:46.913Z [my-app] warn: checkUser: Token not found
+2024-05-11T07:57:29.664Z [my-app] warn: checkUser: Token not found
+2024-05-11T07:57:38.542Z [my-app] warn: checkUser: Token not found
+2024-05-11T07:57:50.165Z [my-app] warn: checkUser: Token not found
+2024-05-11T07:58:09.022Z [my-app] warn: checkUser: Token not found
+2024-05-11T07:58:16.835Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:37:11.573Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:41:46.741Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:42:42.915Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:45:04.788Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:45:35.273Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:48:02.168Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:48:27.147Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:49:21.872Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:52:45.832Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:52:57.898Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:53:06.533Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:53:17.441Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:53:52.674Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:54:07.494Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:54:13.081Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:56:40.720Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:57:23.995Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:57:28.743Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:57:43.209Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:58:35.945Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:58:45.300Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:58:46.542Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:58:46.553Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:58:46.556Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:58:50.403Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:58:51.873Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:58:51.883Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:58:51.884Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:59:39.097Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:59:39.103Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:59:39.105Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:59:41.725Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:59:41.732Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:59:41.733Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:59:52.165Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:59:52.172Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:59:52.173Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:59:54.955Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:59:54.961Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:59:54.964Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:59:57.595Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:59:57.605Z [my-app] warn: checkUser: Token not found
+2024-05-11T10:59:57.606Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:00:00.166Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:00:00.171Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:00:00.172Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:00:09.213Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:00:10.274Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:00:10.283Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:00:10.285Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:00:37.570Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:00:37.575Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:00:37.576Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:00:41.170Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:00:53.094Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:00:53.122Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:01:12.965Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:01:12.999Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:01:14.804Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:01:14.835Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:01:16.462Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:01:16.492Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:01:32.648Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:01:32.675Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:01:39.986Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:01:40.016Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:01:43.071Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:01:43.105Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:01:45.246Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:01:45.277Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:01:48.328Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:01:48.356Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:02:11.698Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:02:11.728Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:02:15.003Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:02:15.032Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:02:22.893Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:02:22.926Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:02:27.000Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:02:27.031Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:02:28.806Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:02:28.846Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:02:38.009Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:02:38.037Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:02:42.365Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:02:42.396Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:02:45.370Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:02:45.403Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:02:52.037Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:02:52.079Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:06:39.700Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:06:45.636Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:06:47.969Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:06:49.044Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:06:50.207Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:06:51.386Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:06:51.387Z [my-app] warn: requireAuth: Token not found
+2024-05-11T11:06:52.488Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:07:06.292Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:07:16.370Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:07:16.460Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:07:33.359Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:07:38.626Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:07:50.361Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:08:30.595Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:09:17.568Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:09:27.171Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:09:36.309Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:10:17.705Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:10:55.279Z [my-app] info: Server is listening on port: 5000
+2024-05-11T11:10:55.988Z [my-app] info: Connected to MongoDB..
+2024-05-11T11:11:57.442Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:12:07.915Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:12:11.342Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:12:22.951Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:13:37.951Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:13:58.156Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:26:07.563Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:26:53.659Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:27:30.434Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:27:55.482Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:28:19.093Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:28:19.788Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:28:19.870Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:28:53.233Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:28:53.295Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:29:04.856Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:29:04.922Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:29:11.085Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:29:12.823Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:29:12.891Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:29:16.102Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:29:24.191Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:29:25.315Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:29:38.955Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:30:16.185Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:30:22.648Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:30:22.794Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:30:34.051Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:31:32.810Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:35:53.821Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:36:59.792Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:36:59.857Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:37:04.498Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:37:06.104Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:37:06.164Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:37:16.005Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:37:16.568Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:37:16.637Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:37:18.835Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:37:26.627Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:37:26.683Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:37:27.533Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:37:28.448Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:37:44.759Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:37:46.182Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:37:46.994Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:37:55.360Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:37:55.490Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:37:58.472Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:38:00.063Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:38:00.127Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:38:26.549Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:38:26.612Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:38:30.943Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:38:31.023Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:38:32.483Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:38:32.549Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:39:00.550Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:39:00.617Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:39:01.386Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:39:01.448Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:39:03.780Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:39:04.779Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:39:04.842Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:40:46.281Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:41:47.297Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:43:36.100Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:43:40.754Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:43:44.972Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:43:47.625Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:43:53.929Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:43:54.065Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:43:56.556Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:47:16.490Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:47:27.633Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:47:30.996Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:47:34.237Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:47:35.827Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:47:41.261Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:47:42.846Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:47:52.329Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:47:52.457Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:47:57.065Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:48:53.170Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:49:15.381Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:49:43.961Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:49:46.393Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:49:47.415Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:56:12.420Z [my-app] info: Server is listening on port: 5000
+2024-05-11T11:56:18.793Z [my-app] info: Server is listening on port: 5000
+2024-05-11T11:56:19.852Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:56:21.881Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:56:45.811Z [my-app] info: Server is listening on port: 5000
+2024-05-11T11:56:46.280Z [my-app] info: Connected to MongoDB..
+2024-05-11T11:56:50.027Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:56:50.875Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:57:08.042Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:57:09.382Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:57:28.520Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:58:16.228Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:58:19.934Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:58:20.817Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:59:09.336Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:59:13.286Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:59:15.468Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:59:19.060Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:59:19.847Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:59:26.704Z [my-app] warn: checkUser: Token not found
+2024-05-11T11:59:31.667Z [my-app] warn: checkUser: Token not found
+2024-05-11T12:00:49.156Z [my-app] warn: checkUser: Token not found
+2024-05-11T12:00:51.448Z [my-app] warn: checkUser: Token not found
+2024-05-11T12:01:08.051Z [my-app] warn: checkUser: Token not found
+2024-05-11T12:04:45.042Z [my-app] warn: checkUser: Token not found
+2024-05-11T12:05:20.186Z [my-app] warn: checkUser: Token not found
+2024-05-11T12:05:21.207Z [my-app] warn: checkUser: Token not found
+2024-05-11T12:08:59.140Z [my-app] warn: checkUser: Token not found
+2024-05-11T12:09:00.070Z [my-app] warn: checkUser: Token not found
+2024-05-11T12:09:04.979Z [my-app] warn: checkUser: Token not found
+2024-05-11T12:09:05.754Z [my-app] warn: checkUser: Token not found
+2024-05-11T12:09:31.221Z [my-app] warn: checkUser: Token not found
+2024-05-11T12:09:32.070Z [my-app] warn: checkUser: Token not found
+2024-05-11T12:09:39.637Z [my-app] warn: checkUser: Token not found
+2024-05-11T12:09:53.629Z [my-app] warn: checkUser: Token not found
+2024-05-11T12:09:55.226Z [my-app] warn: checkUser: Token not found
+2024-05-11T12:10:39.388Z [my-app] warn: checkUser: Token not found
+2024-05-11T12:10:40.202Z [my-app] warn: checkUser: Token not found
+2024-05-11T12:10:43.390Z [my-app] warn: checkUser: Token not found
+2024-05-11T12:10:46.001Z [my-app] warn: checkUser: Token not found

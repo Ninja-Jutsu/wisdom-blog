@@ -34,9 +34,6 @@ export default function Homepage() {
   if (data) {
     return data.length > 0 ? (
       <div className='allPosts'>
-        {user !== null && (
-          <NavLink to={`/profile/${user?.user?._id}`}>Profile</NavLink>
-        )}
         {data.map((post, index) => {
           return (
             <div key={index}>

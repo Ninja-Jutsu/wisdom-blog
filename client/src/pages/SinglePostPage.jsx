@@ -8,7 +8,6 @@ function SinglePostPage() {
   const [value, setValue] = React.useState('')
   const { id } = useParams()
   const selectedPost = useLoaderData()
-  console.log(selectedPost)
 
   return (
     <div>
@@ -32,6 +31,7 @@ function SinglePostPage() {
 
 export async function postLoader({ params }) {
   const { id } = params
+  console.log('loader')
   const response = await fetch(`http://localhost:5000/api/posts/${id}`, {
     method: 'GET',
     credentials: 'include', // 'include' is equivalent to true
