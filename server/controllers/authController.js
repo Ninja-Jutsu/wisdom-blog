@@ -7,9 +7,7 @@ const jwt = require('jsonwebtoken')
 //> Current user
 module.exports.get_currentUser = (req, res) => {
   const token = req.cookies.jwt
-  console.log(token)
   if (token) {
-    console.log('Token exists')
     jwt.verify(token, process.env.SECRET, (err, decodedToken) => {
       if (err) {
         console.log('not verified')

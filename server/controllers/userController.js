@@ -13,7 +13,7 @@ exports.user_list = async (req, res, next) => {
 
 //> Display detail page for a specific User.
 exports.user_detail = async (req, res, next) => {
-  console.log((req.params.id))
+  // console.log((req.params.id))
   const [user, allPostsByUser] = await Promise.all([
     User.findById(req.params.id).exec(),
     Post.find({ user: req.params.id }, 'title summary').exec(),
@@ -38,7 +38,7 @@ exports.user_create_get = (req, res, next) => {
 //> Display user delete form on GET.
 exports.user_delete_get = async (req, res, next) => {
   // Get details of user and all their books (in parallel)
-  console.log(req.params.id)
+  // console.log(req.params.id)
   const [user, allPostsByUser] = await Promise.all([
     User.findById(req.params.id).exec(),
     Post.find({ user: req.params.id }, 'title summary').exec(),

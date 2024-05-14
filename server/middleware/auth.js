@@ -23,6 +23,7 @@ function requireAuth(req, res, next) {
 
 const checkUser = (req, res, next) => {
   const token = req.cookies.jwt
+  // console.log('checkUser' + req.body)
   if (token) {
     jwt.verify(token, process.env.SECRET, async (err, decodedToken) => {
       if (err) {
