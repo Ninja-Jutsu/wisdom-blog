@@ -11,6 +11,7 @@
 }
 
 .individual_post {
+  text-decoration: none;
   margin-top: 10px;
   width: 90%;
   background-color: #1e293b;
@@ -26,4 +27,140 @@
   cursor: pointer;
 }
 
-/* Posts */
+/* Profile Page */
+
+.user_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user_details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-start;
+}
+
+.user_details p {
+  color: tomato;
+}
+
+.profile_posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.user_post {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.user_post {
+  font-family: fantasy;
+  text-decoration: none;
+  margin-top: 10px;
+  width: 90%;
+  background-color: #1e293b;
+  color: white;
+  padding: 10px 10px 15px 10px;
+  border: 1px solid #bfbfbf;
+  border-radius: 6px;
+}
+
+.newPost_btn {
+  align-self: center;
+  color: wheat;
+  background-color: #1f2a44;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+/* New Post Page */
+
+.Formik {
+  margin: 10px;
+}
+
+.formContainer fieldset {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.fieldContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px;
+}
+
+.fieldContainer input {
+  padding: 5px;
+}
+
+.fieldContainer span {
+  color: tomato;
+}
+
+.submit_btn {
+  align-self: end;
+  padding: 5px 10px;
+}
+
+/*  Single Post Page */
+
+.post_container {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.post_details{
+  font-family: fantasy;
+  text-decoration: none;
+  background-color: #1e293b;
+  color: white;
+  padding: 10px 10px 15px 10px;
+  border: 1px solid #bfbfbf;
+  border-radius: 6px;
+}
+.allComments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.individual_comment {
+  border: 0.2px dotted grey;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 90%;
+  padding: 5px;
+  height: max-content;
+}
+.individual_comment .comments_details {
+  font-size: 0.5rem;
+}
+
+.comment_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.comment_form input{
+  padding: 5px;
+}
+
+.comment_form .submit_btn {
+  align-self: flex-end;
+}

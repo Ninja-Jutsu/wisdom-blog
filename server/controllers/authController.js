@@ -105,10 +105,10 @@ module.exports.signup_post = [
         } catch (err) {
           console.log(err.errors)
         }
-        res.json({ userUrl: user.url })
+        res.json({ user })
         // Redirect to new user record.
       } else {
-        res.json({ err: 'Email Already Registered' })
+        res.status(400).json({ err: 'Email Already Registered' })
       }
     }
   },

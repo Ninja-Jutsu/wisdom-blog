@@ -16,7 +16,6 @@ export default function RootLayout() {
       setIsLogged('isLogged')
     }
   }, [])
-  console.log('Root Layout Rerender')
   return (
     <div className='root-layout'>
       <header>

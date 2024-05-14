@@ -3,7 +3,7 @@ const { body, validationResult } = require('express-validator')
 const Post = require('../models/post')
 const Comment = require('../models/comment')
 const user = require('../models/user')
-const mongoose = require('mongoose');
+const mongoose = require('mongoose')
 
 //> Display list of all Posts.
 exports.post_list = async (req, res) => {
@@ -40,15 +40,8 @@ exports.post_create_get = (req, res, next) => {
 //> Post Create.
 exports.post_create_post = [
   // Validate and sanitize fields.
-  body('title')
-    .trim()
-    .isLength({ min: 3 })
-    .withMessage('Title must 3 at least characters long')
-    .escape(),
-  body('desc')
-    .trim()
-    .isLength({ min: 1 })
-    .withMessage('Post content must not be empty.'),
+  body('title').trim().isLength({ min: 3 }).withMessage('Title must 3 at least characters long').escape(),
+  body('desc').trim().isLength({ min: 1 }).withMessage('Post content must not be empty.'),
 
   // Process request after validation and sanitization.
   async (req, res, next) => {
@@ -57,9 +50,9 @@ exports.post_create_post = [
 
     // Create Post object with escaped and trimmed data
     const post = new Post({
-      title: req.body.title,
-      desc: req.body.desc,
-      user: req.body.user,
+      title: req.body.title.replace(/&#x27;/g, "'"),
+      desc: req.body.desc.replace(/&#x27;/g, "'"),
+      user: req.body.user.replace(/&#x27;/g, "'"),
     })
     if (!errors.isEmpty()) {
       // There are errors. Render form again with sanitized values/errors messages.
@@ -122,6 +115,7 @@ exports.post_delete_post = async (req, res, next) => {
 
 // Display post update form on GET.
 exports.post_update_get = async (req, res, next) => {
+  console.log(req.param.id)
   const post = await Post.findById(req.params.id).exec()
   if (post === null) {
     // No results.
@@ -156,6 +150,7 @@ exports.post_update_post = [
       title: req.body.title,
       desc: req.body.desc,
       _id: req.params.id, // This is required, or a new ID will be assigned!
+      likes: req.param.postId,
     })
 
     if (!errors.isEmpty()) {
@@ -174,3 +169,11 @@ exports.post_update_post = [
     }
   },
 ]
+
+exports.put_update_post = async (req, res) => {
+  console.log('id?' + req.param.id)
+  console.log(req.body)
+  const post = await Post.findByIdAndUpdate(req.params.id, { $push: { likes: req.body.user } })
+  if (!post) return res.status(404).send('post with the given id is not found')
+  res.json(post)
+}

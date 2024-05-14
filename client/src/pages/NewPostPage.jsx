@@ -8,7 +8,7 @@ axios.defaults.withCredentials = true //allow exchange with backend
 
 export default function NewPostPage() {
   const { user } = React.useContext(currentUserContext)
-  let userId 
+  let userId
   if (user !== null) {
     userId = user.user._id.toString()
   }
@@ -19,11 +19,9 @@ export default function NewPostPage() {
     user: userId,
   }
   function onSubmit(data) {
-    console.log(data)
     axios
       .post('http://localhost:5000/api/posts/create', data)
       .then((response) => {
-        console.log('Post added with:' + data)
         navigate('/')
       })
       .catch((error) => {
@@ -46,34 +44,45 @@ export default function NewPostPage() {
         validationSchema={validationSchema}
       >
         <Form className='formContainer'>
-          <label htmlFor='title'>Title: </label>
-          <ErrorMessage
-            name='title'
-            component='span'
-          />
-          <Field
-            // autoComplete='off'
-            id='title'
-            name='title'
-            placeholder='title...'
-          />
-          <label htmlFor='desc'>Description: </label>
-          <ErrorMessage
-            name='desc'
-            component='span'
-          />
-          <Field
-            // autoComplete='off'
-            id='desc'
-            name='desc'
-            placeholder='Description...'
-          />
-          <Field
-            id='user'
-            name='user'
-            style={{ display: 'none' }}
-          />
-          <button type='submit'>Create Post</button>
+          <fieldset>
+            <legend>Personalia:</legend>
+            <div className='fieldContainer'>
+              <label htmlFor='title'>Title: </label>
+              <ErrorMessage
+                name='title'
+                component='span'
+              />
+              <Field
+                // autoComplete='off'
+                id='title'
+                name='title'
+                type='text'
+                placeholder='Title...'
+              />
+            </div>
+            <div className='fieldContainer'>
+              <label htmlFor='desc'>Description: </label>
+              <ErrorMessage
+                name='desc'
+                component='span'
+              />
+              <Field
+                // autoComplete='off'
+                rows='10'
+                cols='30'
+                component="textarea" 
+                id='desc'
+                name='desc'
+                placeholder='Description...'
+              />
+            </div>
+            <Field
+              id='user'
+              name='user'
+              style={{ display: 'none' }}
+            />
+            <button className = "submit_btn" type='submit'>Create Post</button>
+          </fieldset>
         </Form>
       </Formik>
     </div>

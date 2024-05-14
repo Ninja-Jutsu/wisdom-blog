@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import { useParams, useLoaderData } from 'react-router-dom'
+import { useParams, useLoaderData, NavLink } from 'react-router-dom'
 import Cookies from 'js-cookie'
 import { useNavigate, Link } from 'react-router-dom'
 import { currentUserContext } from '../components/CurrentUserProvider/CurrentUserProvider'
@@ -11,11 +11,32 @@ function ProfilePage() {
   const { id } = useParams()
   const newUser = useLoaderData()
   return user !== null ? (
-    <div>
-      <h1>{newUser?.user.username}</h1>
-      {user.user._id === newUser.user._id && (
-        <Link to={'/Profile/NewPostPage'}>Create Post</Link>
-      )}
+    <div className='user_container'>
+      <div className='user_details'>
+        <h2>{newUser?.user.username}</h2>
+        <p>{newUser.user_posts.length} Posts</p>
+        {user.user._id === newUser.user._id && (
+          <Link
+            className='newPost_btn'
+            to={'/Profile/NewPostPage'}
+          >
+            Create Post
+          </Link>
+        )}
+      </div>
+      <div className='profile_posts'>
+        {newUser.user_posts.map((post) => {
+          return (
+            <Link
+              className='user_post'
+              to={`/posts/${post._id}`}
+            >
+              <h3>{post.title}</h3>
+              <p>{post.desc}</p>
+            </Link>
+          )
+        })}
+      </div>
     </div>
   ) : (
     navigate('/NotFoundPage')

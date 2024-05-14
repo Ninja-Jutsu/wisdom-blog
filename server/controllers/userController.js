@@ -15,12 +15,12 @@ exports.user_list = async (req, res, next) => {
 exports.user_detail = async (req, res, next) => {
   // console.log((req.params.id))
   const [user, allPostsByUser] = await Promise.all([
-    User.findById(req.params.id).exec(),
-    Post.find({ user: req.params.id }, 'title summary').exec(),
+    User.findById(req.params.id).populate('posts').exec(),
+    Post.find({ user: req.params.id }, 'title desc').exec(),
   ])
   if (user === null) {
     const err = new Error('no such user')
-    res.status(404).json({err : 'no such user'})
+    res.status(404).json({ err: 'no such user' })
     return next(err)
   }
   res.status(200).json({
@@ -99,11 +99,7 @@ exports.user_update_get = async (req, res, next) => {
 //> Handle user update on POST.
 exports.user_update_post = [
   // Validate and sanitize fields.
-  body('username')
-    .trim()
-    .isLength({ min: 1 })
-    .escape()
-    .withMessage('First name must be specified.'),
+  body('username').trim().isLength({ min: 1 }).escape().withMessage('First name must be specified.'),
   body('email', 'Invalid email').trim().isLength({ min: 1 }).isEmail(),
   body('password', 'Invalid password').trim().notEmpty(),
 

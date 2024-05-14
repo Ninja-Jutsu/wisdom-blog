@@ -1,22 +1,41 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Post.css'
-// import AddToCartInput from '../AddToCartInput/AddToCartInput.jsx'
+import axios from 'axios'
+import { currentUserContext } from '../CurrentUserProvider/CurrentUserProvider'
+
+import formatDate from '../../helpers/date'
 
 function Post({ post }) {
+  const { user } = React.useContext(currentUserContext)
   //format time:
   let createdOn = post.createdOn.toString()
-  const date = new Date(createdOn)
-  const now = Date.now()
-  const diffInMilliseconds = now - date.getTime()
-  const hoursAgo = Math.floor(diffInMilliseconds / (1000 * 3600))
-
+  const hoursAgo = formatDate(createdOn)
+  function handleLike() {
+    axios.defaults.withCredentials = true
+    const ObjectId = post._id
+    const stringifyUserId = ObjectId.toString()
+    console.log(`http://localhost:5000/api/posts/${stringifyUserId}`)
+    axios
+      .put(`http://localhost:5000/api/posts/${stringifyUserId}`, { user: user.user._id })
+      .then((response) => {
+        console.log(response)
+      })
+      .catch((error) => {
+        console.error('Error connecting to server:', error)
+        console.log('/errorFetchPage')
+        // Handle errors appropriately (e.g., redirect to login if unauthorized)
+      })
+  }
   return (
     <section className='postCard'>
       <div className='post_header'>
-        <div className='postTitle arabic-text-font'>
-          <Link to={`posts/${post._id}`}>{post.title}</Link>
-        </div>
+        <Link
+          className='postTitle arabic-text-font'
+          to={`posts/${post._id}`}
+        >
+          {post.title}
+        </Link>
         <Link
           to={`${`/profile/${post.user._id}`}`}
           className='user'
@@ -25,13 +44,19 @@ function Post({ post }) {
         </Link>
       </div>
       <div className='post_body'>
-        <div className='postDesc arabic-text-font'>
-          <Link to={`/posts/${post._id}`}> {post.desc}</Link>
-        </div>
+        <Link
+          className='postDesc arabic-text-font'
+          to={`/posts/${post._id}`}
+        >
+          {post.desc}
+        </Link>
         <div className='post_body_separator'></div>
       </div>
       <div className='post_subDetails'>
-        <div className='post_likes'>
+        <div
+          className='post_likes'
+          onClick={handleLike}
+        >
           {/* <svg src={`${process.env.PUBLIC_URL}/like.svg`}/> */}
           <svg
             className='like-svg'

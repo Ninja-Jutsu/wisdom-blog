@@ -18,7 +18,7 @@ function CurrentUserProvider({ children }) {
   //       .catch((err) => console.log(err))
   //   }
   // }, [])
-  // console.log('Provider rerender')
+  console.log('Provider rerender')
   return (
     <currentUserContext.Provider value={{ user, setUser }}>
       {children}

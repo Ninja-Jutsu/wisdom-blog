@@ -41,8 +41,8 @@ exports.comment_create_post = [
   // Validate and sanitize fields.
   body('text')
     .trim()
-    .isLength({ min: 3 }, { max: 500 })
-    .withMessage('Comment must 3 at least characters long')
+    .isLength({ min: 1 ,  max: 500 }, 'Comment must 1 at least characters long')
+    .withMessage('Comment must 1 at least characters long')
     .escape(),
 
   // Process request after validation and sanitization.
@@ -52,10 +52,12 @@ exports.comment_create_post = [
 
     // Create Post object with escaped and trimmed data
     const comment = new Comment({
-      text: req.body.text,
+      text: req.body.text.replace(/&#x27;/g, "'"),
+      post: req.body.post
     })
     if (!errors.isEmpty()) {
       // There are errors. Render form again with sanitized values/errors messages.
+      console.log('errors exist')
       res.json({
         text,
         errors: errors.array(),
@@ -132,7 +134,7 @@ exports.comment_update_post = [
 
     // Create a Comment object with escaped/trimmed data and old id.
     const comment = new Comment({
-      text: req.body.text,
+      text: req.body.text.replace(/&#x27;/g, "'"),
       _id: req.params.id, // This is required, or a new ID will be assigned!
     })
 

@@ -30,4 +30,7 @@ router.get('/:id', post_controller.post_detail) //!DONE // Tested
 // GET request for list of all post items.
 router.get('/', post_controller.post_list) //!DONE // Tested
 
+// Update likes
+router.put('/:id', post_controller.put_update_post)
+
 module.exports = router
