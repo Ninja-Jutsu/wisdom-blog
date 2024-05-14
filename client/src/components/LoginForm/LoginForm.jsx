@@ -24,7 +24,6 @@ function LoginForm() {
       .post('http://localhost:5000/api/auth/login', data)
       .then((response) => {
         const userData = response.data
-        console.log(userData)
         setUser(userData)
         Cookies.set('loggedIn', true)
         navigate('/')

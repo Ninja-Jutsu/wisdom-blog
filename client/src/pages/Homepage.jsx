@@ -9,7 +9,10 @@ import './Pages.css'
 const ENDPOINT = 'http://localhost:5000/api/posts'
 
 async function fetcher(endpoint) {
-  const response = await fetch(endpoint)
+  const response = await fetch(endpoint, {
+    method: 'GET',
+    credentials: 'include',
+  })
 
   if (!response.ok) {
     console.log('Error fetching data')
@@ -29,14 +32,17 @@ export default function Homepage() {
     )
   }
   if (error) {
-    return <p>Something went wrong!</p>
+    return <p className='error'>Something went wrong!</p>
   }
   if (data) {
     return data.length > 0 ? (
       <div className='allPosts'>
         {data.map((post, index) => {
           return (
-            <div key={index}>
+            <div
+              className='individual_post'
+              key={index}
+            >
               <Post post={post} />
             </div>
           )

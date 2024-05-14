@@ -1,41 +1,33 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 import Cookies from 'js-cookie'
 import './Layouts.css'
 import { Outlet, NavLink } from 'react-router-dom'
 import axios from 'axios'
-
+import CurrentUserProvider, { currentUserContext } from '../components/CurrentUserProvider/CurrentUserProvider'
 let isLogged = Cookies.get('loggedIn')
 
 export default function RootLayout() {
-  const [user, setUser] = React.useState(null)
-  let className = isLogged ? 'isLogged' : ''
-  console.log('RootLayout' + user)
+  const { user } = React.useContext(currentUserContext)
+  const [isLogged, setIsLogged] = React.useState('')
 
   React.useEffect(() => {
-    if (isLogged) {
-      axios.defaults.withCredentials = true
-      axios
-        .get('http://localhost:5000/api/auth/current')
-        .then((res) => {
-          console.log(res.data.user)
-          setUser(res.data.user)
-        })
-        .catch((err) => console.log(err))
+    if (user !== null) {
+      setIsLogged('isLogged')
     }
   }, [])
+  console.log('Root Layout Rerender')
   return (
     <div className='root-layout'>
       <header>
-        <nav className={`headerNav ${className}`}>
-          <div className='homeBtn poetsen-one-regular'>
+        <nav className={`headerNav ${isLogged}`}>
+          <div className='homeBtn buttons-font'>
             <NavLink to='/'>Home</NavLink>
-            {user !== null && (
-              <NavLink to={`/profile/${user.id}`}>Profile</NavLink>
-            )}
+            {user !== null && <NavLink to={`/profile/${user.user._id}`}>{user.user.username}</NavLink>}
           </div>
 
-          {!isLogged && (
-            <div className='loginSignup poetsen-one-regular'>
+          {user === null && (
+            <div className='loginSignup'>
               <NavLink to='/login'>Login</NavLink>
               <NavLink to='/signup'>Sign-up</NavLink>
             </div>

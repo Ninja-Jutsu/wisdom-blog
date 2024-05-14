@@ -2,7 +2,6 @@ import React from 'react'
 import { Formik, Form, Field, ErrorMessage } from 'formik'
 import axios from 'axios'
 import * as Yup from 'yup'
-import Cookies from 'js-cookie'
 import { useNavigate } from 'react-router-dom'
 import { currentUserContext } from '../components/CurrentUserProvider/CurrentUserProvider'
 axios.defaults.withCredentials = true //allow exchange with backend

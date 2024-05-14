@@ -2,15 +2,9 @@
 // import Main from '../Game'
 // import Header from '../Header'
 import React from 'react'
-import axios from 'axios'
-import {
-  createBrowserRouter,
-  createRoutesFromElements,
-  Route,
-  RouterProvider,
-  Link,
-  NavLink,
-} from 'react-router-dom'
+import './App.css'
+import CurrentUserProvider, { currentUserContext } from '../CurrentUserProvider/CurrentUserProvider'
+import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider, Link, NavLink } from 'react-router-dom'
 
 // Layout
 
@@ -72,10 +66,13 @@ const router = createBrowserRouter(
 )
 
 function App() {
+  console.log('App rerender')
   return (
-    <div className='app'>
-      <RouterProvider router={router} />
-    </div>
+    <CurrentUserProvider>
+      <div className='app'>
+        <RouterProvider router={router} />
+      </div>
+    </CurrentUserProvider>
   )
 }
 

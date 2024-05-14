@@ -19,28 +19,74 @@
   font-style: normal;
 }
 
+/* General */
 .postCard {
-  border: 1px solid black;
   display: grid;
   grid-template-rows: max-content max-content max-content;
   gap: 5px;
+  color: white;
+  text-align: end;
+}
+.postCard > div {
+  margin-left: 5px;
+}
+
+.post_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.post_header .user {
+  font-size: 0.5em;
+  text-decoration: underline blue 2px;
 }
 .postCard a {
-  color: black;
+  color: #ffffff;
   text-decoration: none;
 }
 .postTitle {
-  margin-left: 5px;
   font-size: 1.5em;
   border-bottom: 1px solid darkgrey;
 }
-
-.postDesc {
-  margin-left: 5px;
+.post_body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.subDetails {
+.post_body_separator {
+  border-bottom: 0.5px solid grey;
+}
+
+/* Sub details */
+.post_subDetails {
   font-size: 0.8em;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.post_likes,
+.post_comments {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.like-svg path {
+  fill: white;
+}
+
+.comment-svg path {
+  stroke: white;
+}
+
+.svgtest {
+  border: 2px solid red;
+}
+
+.svgtest > svg > path {
+  fill: red;
 }

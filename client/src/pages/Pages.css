@@ -1,5 +1,29 @@
+/* General */
+/* fonts */
+
+/* Home Page */
 .allPosts {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  background-color: #0f172a;
 }
+
+.individual_post {
+  margin-top: 10px;
+  width: 90%;
+  background-color: #1e293b;
+  color: white;
+  padding: 10px 10px 15px 10px;
+  border: 1px solid #bfbfbf;
+  box-shadow: 2px 2px 5px #aaaaaa;
+  border-radius: 6px;
+}
+
+.individual_post:hover {
+  scale: 0.99;
+  cursor: pointer;
+}
+
+/* Posts */

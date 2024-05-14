@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
 
-.poetsen-one-regular {
+.buttons-font {
   font-family: 'Poetsen One', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 /* Layout */
+
+/*  Header */
 .root-layout header {
-  background-color: darkblue;
   padding: 5px 0px;
 }
 
@@ -21,10 +22,18 @@
 }
 
 .root-layout header a:hover {
-  border-bottom: 2px solid white;
-  scale: 0.95;
+  scale: 0.99;
+}
+.root-layout header a:active {
+  color: rgb(196, 192, 192);
+  border-bottom: 2px solid tomato;
 }
 
+.root-layout header .active {
+  color: tomato;
+  font-weight: 500;
+  border-bottom: 2px solid tomato;
+}
 .headerNav {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -36,7 +45,6 @@
 }
 .root-layout .headerNav .loginSignup {
   display: flex;
-  /* margin-left: auto; */
   justify-content: center;
 }
 
