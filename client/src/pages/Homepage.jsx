@@ -27,7 +27,6 @@ export default function Homepage() {
   return data.length > 0 ? (
     <div className='allPosts'>
       {data.map((post, index) => {
-        console.log('home' + post.likes.length)
         return (
           <div
             className='individual_post'

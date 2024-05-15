@@ -27,7 +27,7 @@ function SignupForm() {
       .then((response) => {
         const userData = response.data
         setUser(userData)
-        Cookies.set('loggedIn', true)
+        // Cookies.set('loggedIn', true)
         navigate('/')
       })
       .catch((error) => {

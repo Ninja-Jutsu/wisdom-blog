@@ -25,7 +25,6 @@
   grid-template-rows: max-content max-content max-content;
   gap: 5px;
   color: white;
-  text-align: end;
 }
 .postCard > div {
   margin-left: 5px;
@@ -48,6 +47,8 @@
 .postTitle {
   font-size: 1.5em;
   border-bottom: 1px solid darkgrey;
+  flex-grow: 1;
+  justify-self: start;
 }
 .post_body {
   display: flex;

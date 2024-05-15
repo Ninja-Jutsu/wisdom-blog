@@ -30,6 +30,7 @@ function ProfilePage() {
             <Link
               className='user_post'
               to={`/posts/${post._id}`}
+              key={post._id}
             >
               <h3>{post.title}</h3>
               <p>{post.desc}</p>

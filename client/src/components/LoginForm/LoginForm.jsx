@@ -27,7 +27,7 @@ function LoginForm() {
         console.log('res')
         const userData = response.data
         setUser(userData)
-        Cookies.set('loggedIn', true)
+        // Cookies.set('loggedIn', true)
         navigate('/')
       })
       .catch((error) => {
