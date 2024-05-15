@@ -13,13 +13,24 @@ function SinglePostPage() {
   const userId = user.user._id
   const selectedPost = useLoaderData()
   const navigate = useNavigate()
+  console.log('single page rerendered')
   function submitComment(e) {
     e.preventDefault()
     axios
       .post('http://localhost:5000/API/comments/create', { text: value, post: id, user: userId })
       .then((res) => {
+        axios
+          .put(`http://localhost:5000/api/posts/comments/${id}`, { comment: res.data.comment._id })
+          .then((response) => {
+            console.log('comment pushed')
+          })
+          .catch((error) => {
+            console.error('Error connecting to server:', error)
+            console.log('comment was not pushed')
+          })
         navigate(`/posts/${id}`)
         setValue('')
+        console.log('all good')
       })
       .catch((err) => console.log(err))
   }
@@ -46,7 +57,6 @@ function SinglePostPage() {
         })}
       </div>
       <form className='comment_form'>
-        {/* <label htmlFor='comment'>Comment:</label> */}
         <input
           id='comment'
           name='comment'

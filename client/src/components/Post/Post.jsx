@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import './Post.css'
 import axios from 'axios'
 import { currentUserContext } from '../CurrentUserProvider/CurrentUserProvider'
@@ -7,20 +7,23 @@ import { currentUserContext } from '../CurrentUserProvider/CurrentUserProvider'
 import formatDate from '../../helpers/date'
 
 function Post({ post }) {
-  const { user } = React.useContext(currentUserContext)
+
+  const { user,setUser, value, setValue } = React.useContext(currentUserContext)
   let createdOn = post.createdOn.toString()
   //format time:
   const hoursAgo = formatDate(createdOn)
+  const navigate = useNavigate()
 
   function handleLike() {
     axios.defaults.withCredentials = true
     const ObjectId = post._id
     const stringifyUserId = ObjectId.toString()
-    console.log(`http://localhost:5000/api/posts/${stringifyUserId}`)
     axios
-      .put(`http://localhost:5000/api/posts/${stringifyUserId}`, { user: user.user._id })
+      .put(`http://localhost:5000/api/posts/likes/${stringifyUserId}`, { user: user.user._id })
       .then((response) => {
         console.log(response)
+        setUser({...user})
+        navigate('/')
       })
       .catch((error) => {
         console.error('Error connecting to server:', error)
@@ -72,7 +75,7 @@ function Post({ post }) {
               fill='#ffffff'
             />
           </svg>
-          <p className='numOfLikes'>2</p>
+          <p className='numOfLikes'>{post.likes.length}</p>
         </div>
         <p className='post_date'>{hoursAgo} hours ago</p>
         <p className='post_comments'>
@@ -98,7 +101,7 @@ function Post({ post }) {
               fill='#ffffff'
             />
           </svg>
-          <span>5</span>
+          <span>{post.comments.length}</span>
         </p>
       </div>
     </section>

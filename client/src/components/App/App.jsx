@@ -66,7 +66,6 @@ const router = createBrowserRouter(
 )
 
 function App() {
-  console.log('App rerender')
   return (
     <CurrentUserProvider>
       <div className='app'>
