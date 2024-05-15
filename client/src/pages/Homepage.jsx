@@ -6,11 +6,16 @@ import { NavLink } from 'react-router-dom'
 import { currentUserContext } from '../components/CurrentUserProvider/CurrentUserProvider'
 import './Pages.css'
 import axios from 'axios'
+import { useNavigate } from 'react-router-dom'
 
 const ENDPOINT = 'http://localhost:5000/api/posts'
 
 export default function Homepage() {
   const { user } = React.useContext(currentUserContext)
+  const navigate = useNavigate()
+  if (user === null) {
+    navigate('/login')
+  }
   const [data, setData] = React.useState({})
   React.useEffect(() => {
     axios
@@ -46,15 +51,6 @@ export default function Homepage() {
     )
   )
 }
-
-
-
-
-
-
-
-
-
 
 //! SWR FAILED ME:
 // async function fetcher(endpoint) {

@@ -5,7 +5,6 @@ export default function ProfileLayout() {
   const { user } = React.useContext(currentUserContext)
   return (
     <div>
-      {/* <p id='main-header'>User params</p> */}
       <Outlet />
     </div>
   )

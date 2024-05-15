@@ -1,28 +1,30 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import Cookies from 'js-cookie'
 import './Layouts.css'
 import { Outlet, NavLink } from 'react-router-dom'
-import axios from 'axios'
-import CurrentUserProvider, { currentUserContext } from '../components/CurrentUserProvider/CurrentUserProvider'
-let isLogged = Cookies.get('loggedIn')
+import { currentUserContext } from '../components/CurrentUserProvider/CurrentUserProvider'
+import { useNavigate } from 'react-router-dom'
 
 export default function RootLayout() {
   const { user } = React.useContext(currentUserContext)
   const [isLogged, setIsLogged] = React.useState('')
-
   React.useEffect(() => {
     if (user !== null) {
       setIsLogged('isLogged')
     }
-  }, [])
+  }, [user])
   return (
     <div className='root-layout'>
       <header>
         <nav className={`headerNav ${isLogged}`}>
           <div className='homeBtn buttons-font'>
-            <NavLink to='/'>Home</NavLink>
-            {user !== null && <NavLink to={`/profile/${user.user._id}`}>{user.user.username}</NavLink>}
+            {user !== null && (
+              <>
+                <NavLink to='/'>Home</NavLink>
+                <NavLink to={`/profile/${user.user._id}`}>{user.user.username}</NavLink>
+                <NavLink to={`/logout`}>Logout</NavLink>
+              </>
+            )}
           </div>
 
           {user === null && (

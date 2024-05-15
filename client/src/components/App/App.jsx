@@ -3,7 +3,7 @@
 // import Header from '../Header'
 import React from 'react'
 import './App.css'
-import CurrentUserProvider, { currentUserContext } from '../CurrentUserProvider/CurrentUserProvider'
+import CurrentUserProvider from '../CurrentUserProvider/CurrentUserProvider'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider, Link, NavLink } from 'react-router-dom'
 
 // Layout
@@ -19,6 +19,7 @@ import ProfilePage, { profileLoader } from '../../pages/ProfilePage'
 import NotFoundPage from '../../pages/NotFoundPage'
 import NewPostPage from '../../pages/NewPostPage'
 import SinglePostPage, { postLoader } from '../../pages/SinglePostPage'
+import Logout from '../Logout/Logout'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -38,6 +39,10 @@ const router = createBrowserRouter(
         path='signup'
         element={<SignupPage />}
       />
+      <Route
+        path='logout'
+        element={<Logout />}
+      ></Route>
       <Route
         path='profile'
         element={<ProfileLayout />}
@@ -66,6 +71,7 @@ const router = createBrowserRouter(
 )
 
 function App() {
+
   return (
     <CurrentUserProvider>
       <div className='app'>

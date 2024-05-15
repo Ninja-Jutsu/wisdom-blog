@@ -1,0 +1,17 @@
+import axios from 'axios'
+import React from 'react'
+import { useNavigate } from 'react-router-dom'
+import { currentUserContext } from '../CurrentUserProvider/CurrentUserProvider'
+
+function Logout() {
+  const { user, setUser } = React.useContext(currentUserContext)
+  const navigate = useNavigate()
+  axios.get('http://localhost:5000/api/auth/logout').then((res) => {
+    console.log(res)
+    setUser(null)
+    navigate('/')
+  })
+  return <div></div>
+}
+
+export default Logout

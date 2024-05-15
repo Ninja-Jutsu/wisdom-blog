@@ -11,6 +11,7 @@ function Post({ post }) {
   const [isLiked, setIsLiked] = React.useState(false)
   const [likedBy, setLikedBy] = React.useState(post.likes)
 
+  //check if post liked by user
   let initialLikeBtnColor
   if (user !== null) {
     if (likedBy.indexOf(user.user._id) !== -1) {
@@ -19,7 +20,6 @@ function Post({ post }) {
       initialLikeBtnColor = '#ffffff'
     }
   }
-  console.log(initialLikeBtnColor)
 
   const [likeIcon, setLikeIcon] = React.useState(initialLikeBtnColor)
   let createdOn = post.createdOn.toString()
