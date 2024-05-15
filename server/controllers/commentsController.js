@@ -16,9 +16,7 @@ exports.comment_list = async (req, res) => {
 //> Display detail page for a specific Post.
 //!NOT NEEDED
 exports.comment_detail = async (req, res, next) => {
-  const [comment] = await Promise.all([
-    Comment.findById(req.params.id).populate('user').exec(),
-  ])
+  const [comment] = await Promise.all([Comment.findById(req.params.id).populate('user').exec()])
   if (!comment) {
     const err = new Error('no such comment')
     res.status(404)
@@ -41,7 +39,7 @@ exports.comment_create_post = [
   // Validate and sanitize fields.
   body('text')
     .trim()
-    .isLength({ min: 1 ,  max: 500 }, 'Comment must 1 at least characters long')
+    .isLength({ min: 1, max: 500 }, 'Comment must 1 at least characters long')
     .withMessage('Comment must 1 at least characters long')
     .escape(),
 
@@ -53,7 +51,8 @@ exports.comment_create_post = [
     // Create Post object with escaped and trimmed data
     const comment = new Comment({
       text: req.body.text.replace(/&#x27;/g, "'"),
-      post: req.body.post
+      post: req.body.post,
+      user: req.body.user,
     })
     if (!errors.isEmpty()) {
       // There are errors. Render form again with sanitized values/errors messages.
@@ -148,11 +147,7 @@ exports.comment_update_post = [
       return
     } else {
       // Data from form is valid. Update the record.
-      const updatedComment = await Comment.findByIdAndUpdate(
-        req.params.id,
-        comment,
-        {}
-      )
+      const updatedComment = await Comment.findByIdAndUpdate(req.params.id, comment, {})
       // Redirect to book detail page.
       res.json({ updatedComment: updatedComment.url })
     }

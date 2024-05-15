@@ -170,10 +170,23 @@ exports.post_update_post = [
   },
 ]
 
-exports.put_update_post = async (req, res) => {
-  console.log('id?' + req.param.id)
-  console.log(req.body)
+// Add LIKE to a post:
+exports.put_update_post_likes_add = async (req, res) => {
   const post = await Post.findByIdAndUpdate(req.params.id, { $push: { likes: req.body.user } })
+  if (!post) return res.status(404).send('post with the given id is not found')
+  res.json(post)
+}
+
+// Remove like from a post:
+exports.put_update_post_likes_delete = async (req, res) => {
+  const post = await Post.findByIdAndUpdate(req.params.id, { $pull: { likes: req.body.user } })
+  if (!post) return res.status(404).send('post with the given id is not found')
+  res.json(post)
+}
+
+// Add comment to a post
+exports.put_update_post_comments = async (req, res) => {
+  const post = await Post.findByIdAndUpdate(req.params.id, { $push: { comments: req.body.comment } })
   if (!post) return res.status(404).send('post with the given id is not found')
   res.json(post)
 }

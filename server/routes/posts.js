@@ -31,6 +31,11 @@ router.get('/:id', post_controller.post_detail) //!DONE // Tested
 router.get('/', post_controller.post_list) //!DONE // Tested
 
 // Update likes
-router.put('/:id', post_controller.put_update_post)
+router.put('/likes/add/:id', post_controller.put_update_post_likes_add)
+router.put('/likes/delete/:id', post_controller.put_update_post_likes_delete)
+
+
+// Update Comments
+router.put('/comments/:id', post_controller.put_update_post_comments)
 
 module.exports = router

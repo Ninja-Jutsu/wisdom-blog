@@ -14,7 +14,13 @@ module.exports.get_currentUser = (req, res) => {
         res.json({ loginPage: './login' })
       } else {
         console.log('verified')
-        res.json({user : decodedToken})
+        User.findById(decodedToken.id)
+          .then((user) => {
+            res.json({ user })
+          })
+          .catch((err) => {
+            console.log(err)
+          })
       }
     })
   } else {
@@ -37,7 +43,7 @@ module.exports.login_post = async (req, res) => {
   const user = await User.login(email, password)
   if (typeof user !== 'string') {
     const token = createToken(user._id)
-    res.cookie('jwt', token, { maxAge: maxAge * 1000 , httpOnly: true,  })
+    res.cookie('jwt', token, { maxAge: maxAge * 1000, httpOnly: true })
 
     res.status(200).json({ user, token: token })
   } else {
@@ -65,11 +71,7 @@ module.exports.signup_get = (req, res) => {
 //>Sign up POST
 module.exports.signup_post = [
   // Validate and sanitize fields.
-  body('username')
-    .trim()
-    .isLength({ min: 5 })
-    .withMessage('username must be at least 5 characters long')
-    .escape(),
+  body('username').trim().isLength({ min: 5 }).withMessage('username must be at least 5 characters long').escape(),
   body('email', 'Invalid email').trim().isLength({ min: 1 }).isEmail(),
   body('password', 'Invalid password').trim().notEmpty(),
 
