@@ -33,7 +33,7 @@ function Post({ post }) {
     const ObjectId = post._id
     const stringifyUserId = ObjectId.toString()
     axios
-      .put(`http://localhost:5000/api/posts/likes/${state}/${stringifyUserId}`, { user: user.user._id })
+      .put(`https://wisdom-server-production.up.railway.app/api/posts/likes/${state}/${stringifyUserId}`, { user: user.user._id })
       .then((response) => {
         setUser({ ...user })
         setIsLiked(!isLiked)

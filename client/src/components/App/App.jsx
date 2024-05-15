@@ -71,7 +71,6 @@ const router = createBrowserRouter(
 )
 
 function App() {
-
   return (
     <CurrentUserProvider>
       <div className='app'>

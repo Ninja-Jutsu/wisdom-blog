@@ -20,7 +20,7 @@ function LoginForm() {
       console.log(cookie)
       console.log('cookie')
 
-      axios.get('http://localhost:5000/api/auth/current').then((res) => {
+      axios.get('https://wisdom-server-production.up.railway.app/api/auth/current').then((res) => {
         setUser(res.data)
       })
     }
@@ -34,7 +34,7 @@ function LoginForm() {
   }
   function onSubmit(data) {
     axios
-      .post('http://localhost:5000/api/auth/login', data)
+      .post('https://wisdom-server-production.up.railway.app/api/auth/login', data)
       .then((response) => {
         const userData = response.data
         setUser(userData)

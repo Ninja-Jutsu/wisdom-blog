@@ -23,7 +23,7 @@ function SignupForm() {
   }
   function onSubmit(data) {
     axios
-      .post('http://localhost:5000/api/auth/signup', data)
+      .post('https://wisdom-server-production.up.railway.app/api/auth/signup', data)
       .then((response) => {
         const userData = response.data
         setUser(userData)

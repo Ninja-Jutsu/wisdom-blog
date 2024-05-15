@@ -20,7 +20,7 @@ export default function NewPostPage() {
   }
   function onSubmit(data) {
     axios
-      .post('http://localhost:5000/api/posts/create', data)
+      .post('https://wisdom-server-production.up.railway.app/api/posts/create', data)
       .then((response) => {
         navigate('/')
       })

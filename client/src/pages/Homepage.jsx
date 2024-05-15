@@ -9,7 +9,7 @@ import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 import Cookies from 'js-cookie'
 
-const ENDPOINT = 'http://localhost:5000/api/posts'
+const ENDPOINT = 'https://wisdom-server-production.up.railway.app/api/posts'
 
 export default function Homepage() {
   const { user } = React.useContext(currentUserContext)

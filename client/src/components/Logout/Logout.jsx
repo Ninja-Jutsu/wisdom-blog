@@ -7,7 +7,7 @@ import Cookies from 'js-cookie'
 function Logout() {
   const { user, setUser } = React.useContext(currentUserContext)
   const navigate = useNavigate()
-  axios.get('http://localhost:5000/api/auth/logout').then((res) => {
+  axios.get('https://wisdom-server-production.up.railway.app/api/auth/logout').then((res) => {
     console.log(res)
     setUser(null)
     Cookies.set('loggedIn', false)

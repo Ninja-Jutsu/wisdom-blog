@@ -17,10 +17,10 @@ function SinglePostPage() {
   function submitComment(e) {
     e.preventDefault()
     axios
-      .post('http://localhost:5000/API/comments/create', { text: value, post: id, user: userId })
+      .post('https://wisdom-server-production.up.railway.app/api/comments/create', { text: value, post: id, user: userId })
       .then((res) => {
         axios
-          .put(`http://localhost:5000/api/posts/comments/${id}`, { comment: res.data.comment._id })
+          .put(`https://wisdom-server-production.up.railway.app/api/posts/comments/${id}`, { comment: res.data.comment._id })
           .then((response) => {
             console.log('comment pushed')
           })
@@ -81,7 +81,7 @@ function SinglePostPage() {
 
 export async function postLoader({ params }) {
   const { id } = params
-  const response = await fetch(`http://localhost:5000/api/posts/${id}`, {
+  const response = await fetch(`https://wisdom-server-production.up.railway.app/api/posts/${id}`, {
     method: 'GET',
     credentials: 'include', // 'include' is equivalent to true
   })

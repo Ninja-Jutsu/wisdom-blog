@@ -46,7 +46,7 @@ function ProfilePage() {
 
 export async function profileLoader({ params }) {
   const { id } = params
-  const response = await fetch(`http://localhost:5000/api/users/${id}`, {
+  const response = await fetch(`https://wisdom-server-production.up.railway.app/api/users/${id}`, {
     method: 'GET',
     credentials: 'include', // 'include' is equivalent to true
   })
