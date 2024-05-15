@@ -13,7 +13,19 @@ axios.defaults.withCredentials = true //allow exchange with backend
 const MAX_AGE = 3 * 24 * 60 * 60
 
 function LoginForm() {
-  const { setUser } = React.useContext(currentUserContext)
+  const cookie = Cookies.get('loggedIn')
+  const { user, setUser } = React.useContext(currentUserContext)
+  React.useEffect(() => {
+    if (cookie === 'true') {
+      console.log(cookie)
+      console.log('cookie')
+
+      axios.get('http://localhost:5000/api/auth/current').then((res) => {
+        setUser(res.data)
+      })
+    }
+  }, [])
+
   const [err, setErr] = React.useState('')
   const navigate = useNavigate()
   const initialValues = {
@@ -24,10 +36,9 @@ function LoginForm() {
     axios
       .post('http://localhost:5000/api/auth/login', data)
       .then((response) => {
-        console.log('res')
         const userData = response.data
         setUser(userData)
-        // Cookies.set('loggedIn', true)
+        Cookies.set('loggedIn', true)
         navigate('/')
       })
       .catch((error) => {

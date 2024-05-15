@@ -7,12 +7,16 @@ import { currentUserContext } from '../components/CurrentUserProvider/CurrentUse
 import './Pages.css'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
+import Cookies from 'js-cookie'
 
 const ENDPOINT = 'http://localhost:5000/api/posts'
 
 export default function Homepage() {
   const { user } = React.useContext(currentUserContext)
   const navigate = useNavigate()
+  const cookie = Cookies.get('loggedIn')
+  console.log(user)
+  console.log(cookie)
   if (user === null) {
     navigate('/login')
   }
