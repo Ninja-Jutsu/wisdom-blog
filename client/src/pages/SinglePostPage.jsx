@@ -10,12 +10,13 @@ function SinglePostPage() {
   const { user } = React.useContext(currentUserContext)
   const [value, setValue] = React.useState('')
   const { id } = useParams()
+  const userId = user.user._id
   const selectedPost = useLoaderData()
   const navigate = useNavigate()
   function submitComment(e) {
     e.preventDefault()
     axios
-      .post('http://localhost:5000/API/comments/create', { text: value, post: id, user: user.id })
+      .post('http://localhost:5000/API/comments/create', { text: value, post: id, user: userId })
       .then((res) => {
         navigate(`/posts/${id}`)
         setValue('')

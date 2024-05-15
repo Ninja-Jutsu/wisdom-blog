@@ -18,6 +18,7 @@ async function fetcher(endpoint) {
     console.log('Error fetching data')
   }
   const json = await response.json()
+  console.log(json)
   return json.posts_list
 }
 

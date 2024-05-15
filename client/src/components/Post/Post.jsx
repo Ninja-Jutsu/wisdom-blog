@@ -8,9 +8,10 @@ import formatDate from '../../helpers/date'
 
 function Post({ post }) {
   const { user } = React.useContext(currentUserContext)
-  //format time:
   let createdOn = post.createdOn.toString()
+  //format time:
   const hoursAgo = formatDate(createdOn)
+
   function handleLike() {
     axios.defaults.withCredentials = true
     const ObjectId = post._id
