@@ -7,22 +7,24 @@ import { currentUserContext } from '../CurrentUserProvider/CurrentUserProvider'
 import formatDate from '../../helpers/date'
 
 function Post({ post }) {
-
-  const { user,setUser, value, setValue } = React.useContext(currentUserContext)
+  const { user,setUser } = React.useContext(currentUserContext)
+  const [isLiked , setIsLiked] = React.useState(false)
   let createdOn = post.createdOn.toString()
   //format time:
   const hoursAgo = formatDate(createdOn)
   const navigate = useNavigate()
 
   function handleLike() {
+    let state = isLiked ? 'add' : 'delete'
     axios.defaults.withCredentials = true
     const ObjectId = post._id
     const stringifyUserId = ObjectId.toString()
     axios
-      .put(`http://localhost:5000/api/posts/likes/${stringifyUserId}`, { user: user.user._id })
+      .put(`http://localhost:5000/api/posts/likes/${state}/${stringifyUserId}`, { user: user.user._id })
       .then((response) => {
         console.log(response)
         setUser({...user})
+        setIsLiked(!isLiked)
         navigate('/')
       })
       .catch((error) => {
